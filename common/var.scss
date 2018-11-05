@@ -1,0 +1,105 @@
+@import "../../theme-chalk/src/common/var";
+
+/* JUMBLEBERRY THEME VARIABLES */
+
+/* JB-Font
+-------------------------- */
+$--jb-font-path: '~@/theme/jumbleberry/fonts' !default;
+
+/* ----------------------------
+#JB-COLORS
+------------------------------*/
+$--jb-dark-primary-color: #3660E2;
+$--jb-light-primary-color: #5078FB;
+$--jb-black-primary-color: #092165;
+
+/* ----------------------------
+#JB-SPECIFIC-PLACEHOLDER-COLOR
+------------------------------*/
+$--color-text-jb-placeholder: rgb(41, 41, 182) !default;
+
+/* ----------------------------
+#JB-SPECIFIC-COLOR
+------------------------------*/
+$--border-color-hover: $--color-text-jb-placeholder !default;
+
+/* ----------------------------
+#JB-SPECIFIC-META-COPY
+------------------------------*/
+$--jb-meta-desc-copy: 13px !default;
+$--jb-meta-text-align: left !default;
+$--jb-meta-line-height: 20px !default;
+
+/* ----------------------------
+#JB-SPECIFIC-ICON
+------------------------------*/
+$--border-color-hover: $--color-text-jb-placeholder !default;
+$--icon-checkmark-jb-size: 29px !default;
+
+/* ----------------------------
+#JB-SPECIFIC-MEDIA-ICON-OBJECT
+------------------------------*/
+$--border-color-hover: $--color-text-jb-placeholder !default;
+$--media-icon-jb-flex: flex !default;
+$--media-icon-jb-padding: 14px 0 !default;
+$--media-icon-jb-align: flex-start !default;
+$--media-icon-jb-margin: 0px !default;
+$--media-icon-right-text-jb-align: left !default;
+$--media-icon-right-jb-padding: 10px !default;
+$--media-icon-right-jb-line-height: 16px !default;
+$--media-icon-jb-description: 12px;
+
+/* ----------------------------
+#JB-SPECIFIC-INPUT
+------------------------------*/
+
+/*BORDER*/
+$--border-color-hover: $--color-text-jb-placeholder !default;
+
+/*INPUT*/
+$--input-icon-jb-font-size: 20px !default;
+$--jb-input-icon-position: 15px !default;
+$--input-inner-jb-padding: 27px 15px 15px !default;
+$--input-jb-height: 67px !default;
+$--input-placeholder-color: $--color-text-jb-placeholder !default;
+
+/* #JB-hover-autocomplete---------------
+-------------------------- */
+$--jb-hover-autocomplete: $--jb-light-primary-color !default;
+
+/* ----------------------------
+#JB-SPECIFIC-BUTTON
+------------------------------*/
+$--border-color-hover: $--color-text-jb-placeholder !default;
+$--button-jb-height: 67px !default;
+$--jb-button-border-focus: 2px;
+$--jb-button-border-active: 2px solid;
+
+/* ----------------------------
+#JB-NEXT-BUTTON
+------------------------------*/
+$--jb-next-box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.13);
+
+/* ----------------------------
+#JB-POPOVER-BORDER-COLOR
+------------------------------*/
+$--jb-popover-border-color: #f3f5ff !default;
+
+/* ----------------------------
+#JB-SPECIFIC-COLOR
+------------------------------*/
+$--border-color-hover: $--color-text-jb-placeholder !default;
+$--card-main-jb-padding: 34px 50px 39px !default;
+
+/* #JB-HEADER-h2-----------------
+--------------------------*/
+$--jb-header-h2: 24px !default;
+
+/* ----------------------------
+#JB-MESSAGE-PAGE
+------------------------------*/
+$--jb-message-content-margin-title: 0px !default;
+$--jb-message-content-margin-bottom: 8px !default;
+$--jb-message-img-margin: 30px 0px !default;
+$--jb-message-img-width: 177px !default;
+$--jb-message-img-height: 177px !default;
