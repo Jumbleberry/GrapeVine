@@ -5,6 +5,9 @@
   @include e(inner) {
     text-transform: uppercase;
     color: $--jb-dark-primary-color;
+    &::placeholder {
+      color: $--color-text-jb-placeholder;
+    }
     &:focus {
       box-shadow: $--box-shadow-base;
     }

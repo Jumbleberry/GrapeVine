@@ -1,1 +1,48 @@
+@import "common/var";
 @import "../theme-chalk/src/button.scss";
+
+@include b(button) {
+  cursor: auto;
+  text-align: center;
+  height: $--button-jb-height;
+  width: 100%;
+  margin: 20px 0;
+  transition: all 0.3s ease;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+
+  &:hover{
+    cursor: auto;
+    box-shadow: $--box-shadow-dark;
+    transform: translateY(-3px);
+    letter-spacing: 1px;
+  }
+  &:focus{
+    border-width: $--jb-button-border-focus;
+  }
+  &:active {
+    transform: scale(0.99);
+    border-color: #3a8ee6;
+    outline: none;
+  }
+  .show-password-button{
+    margin-top: 0;
+    height: $--button-jb-height;
+  }
+}
+
+//Next button
+.next-button {
+  padding-right: 47px;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  background-color: $--jb-dark-primary-color;
+  color: $--color-white;
+  font-size: $--button-font-size;
+  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.13);
+  border: none;
+  transition: all 0.3s ease;
+  outline: 0;
+  &:hover {
+    background: $--jb-light-primary-color;
+  }
+}
+
