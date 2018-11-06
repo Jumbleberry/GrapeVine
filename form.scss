@@ -49,6 +49,7 @@
   // input no value - initial load
   .form-item-input input:placeholder-shown {
     padding: 0 15px;
+    font-size: 14px;
   }
   .form-item-input input:not(:placeholder-shown) {
     padding: 23px 14px 9px;
