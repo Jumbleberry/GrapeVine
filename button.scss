@@ -44,5 +44,8 @@
   &:hover {
     background: $--jb-light-primary-color;
   }
+  &:active {
+    background: pink;
+  }
 }
 
