@@ -1,1 +1,28 @@
+@import "common/var";
 @import "../theme-chalk/src/input.scss";
+
+@include b(input) {
+  @include e(inner) {
+    text-transform: uppercase;
+    color: $--jb-dark-primary-color;
+    &:focus {
+      box-shadow: $--box-shadow-base;
+    }
+  }
+  @include e(suffix) {
+    font-size: $--input-icon-jb-font-size;
+    right: $--jb-input-icon-position;
+  }
+
+  @include m(prefix) {
+    .el-input__inner {
+      letter-spacing: $--input-letter-spacing;
+      padding: $--input-inner-jb-padding;
+      font-size: $--font-size-medium;
+      height: $--input-jb-height;
+      &:focus {
+        padding:31px 14px 18px;
+      }
+    }
+  }
+}

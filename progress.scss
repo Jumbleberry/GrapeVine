@@ -1,1 +1,23 @@
 @import "../theme-chalk/src/progress.scss";
+
+.progress-container{
+  display: flex;
+}
+@include b(progress) {
+  margin: 0px 4px 16px 0px;
+  width: 33.33%;
+  @include e(text) {
+    display: none;
+  }
+}
+@include b(progress-bar) {
+  padding-right: 0;
+  margin-right: 0;
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+  @include e(outer) {
+    height: 0;
+  }
+}

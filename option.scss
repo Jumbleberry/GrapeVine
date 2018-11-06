@@ -1,1 +1,17 @@
+@import "common/var";
 @import "../theme-chalk/src/option.scss";
+
+@include b(select-dropdown) {
+  @include e(item) {
+    text-transform: uppercase;
+    color: $--jb-dark-primary-color;
+    &.hover, &:hover {
+      background: $--jb-hover-autocomplete;
+      color: $--color-white;
+    }
+    &.selected {
+      // color: $--select-option-selected;
+      font-weight: 400;
+    }
+  }
+}

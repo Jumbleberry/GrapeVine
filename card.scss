@@ -1,1 +1,11 @@
+@import "common/var";
 @import "../theme-chalk/src/card.scss";
+
+@include b(card) {
+  padding: $--card-main-jb-padding;
+  border-radius: 9px;
+  box-shadow: $--box-shadow-base;
+  @include e(body){
+    padding: 0;
+  }
+}

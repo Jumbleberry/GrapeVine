@@ -1,1 +1,19 @@
 @import "../theme-chalk/src/alert.scss";
+
+@include b(alert) {
+  margin-bottom: 10px;
+  color: $--color-black;
+  background-color: $--color-white;
+  .el-icon-success.is-big{
+    font-size: 19px;
+  }
+  .el-alert__content{
+    text-align: left;
+  }
+  .el-alert__icon{
+    color: $--color-primary;
+  }
+  @include e(closebtn) {
+    display: none;
+  }
+}

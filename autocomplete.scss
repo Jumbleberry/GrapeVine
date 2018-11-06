@@ -1,1 +1,20 @@
+@import "common/var";
 @import "../theme-chalk/src/autocomplete.scss";
+
+@include b(autocomplete) {
+  width: 100%;
+}
+@include b(autocomplete-suggestion) {
+  & li {
+    line-height: 26px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    &:hover{
+      background: $--jb-hover-autocomplete;
+      color: $--color-white;
+    }
+  }
+  @include e(wrap) {
+    background: #f3f5ff;
+  }
+}

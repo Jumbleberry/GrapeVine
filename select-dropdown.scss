@@ -1,1 +1,5 @@
 @import "../theme-chalk/src/select-dropdown.scss";
+
+@include b(select-dropdown__list) {
+  background: #f3f5ff;
+}

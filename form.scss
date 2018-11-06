@@ -1,1 +1,66 @@
+@import "common/var";
 @import "../theme-chalk/src/form.scss";
+
+@include b(form) {
+  padding: 5px;
+  border-radius: 9px;
+  position: relative;
+}
+
+@include b(form-item) {
+  position: relative;
+  margin-bottom: $--form-item-margin-bottom;
+  @include when(success) {
+    & .el-input__inner,
+    & .el-textarea__inner {
+
+      &, &:focus {
+        border-color: $--color-success;
+        border-width: 2px;
+      }
+    }
+    & .el-input-group__append,
+    & .el-input-group__prepend {
+      & .el-input__inner {
+        border-color: transparent;
+      }
+    }
+    .el-input__validateIcon {
+      color: $--color-success;
+    }
+  }
+  @include e(error) {
+    top: 86px;
+    text-align: left;
+    left: 2px;
+  }
+  .show-password-button{
+    position: relative;
+    bottom: -19px;
+    margin-bottom: 0;
+  }
+}
+.floating-label {
+  .el-input__prefix {
+    pointer-events: none;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+  // input no value - initial load
+  .form-item-input input:placeholder-shown {
+    padding: 0 15px;
+  }
+  .form-item-input input:not(:placeholder-shown) {
+    padding: 23px 14px 9px;
+  }
+  .form-item-input input:not(:placeholder-shown) + .el-input__prefix {
+    transform: translateX(6px);
+    transform: translateY(-10px);
+    opacity: 1;
+    font-weight: bold;
+    color: rgb(41, 41, 182);
+  }
+}
