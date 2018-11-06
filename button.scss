@@ -24,10 +24,6 @@
     border-color: #3a8ee6;
     outline: none;
   }
-  .show-password-button{
-    margin-top: 0;
-    height: $--button-jb-height;
-  }
 }
 
 //Next button
@@ -47,5 +43,10 @@
   &:active {
     background: pink;
   }
+}
+.show-password-button{
+  position: relative;
+  bottom: -13px;
+  margin-bottom: 0;
 }
 

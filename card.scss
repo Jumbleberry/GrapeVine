@@ -8,4 +8,10 @@
   @include e(body){
     padding: 0;
   }
+  @include e(header) {
+    padding: #{$--card-padding - 2 $--card-padding};
+    border-bottom: 1px solid $--card-border-color;
+    box-sizing: border-box;
+    margin-bottom: 23px;
+  }
 }

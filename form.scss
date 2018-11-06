@@ -34,12 +34,9 @@
     text-align: left;
     left: 2px;
   }
-  .show-password-button{
-    position: relative;
-    bottom: -19px;
-    margin-bottom: 0;
-  }
 }
+
+//----- custom -----
 .floating-label {
   .el-input__prefix {
     pointer-events: none;
@@ -62,5 +59,19 @@
     opacity: 1;
     font-weight: bold;
     color: rgb(41, 41, 182);
+  }
+}
+
+@include b(form) {
+  @include b(form-item) {
+    margin-bottom: 29px;
+    @include e(error) {
+      top: 70px;
+      text-align: left;
+      left: 2px;
+    }
+  }
+  .el-button + .el-button {
+    margin-left: 0px;
   }
 }
