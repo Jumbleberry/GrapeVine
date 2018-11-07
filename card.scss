@@ -4,7 +4,7 @@
 @include b(card) {
   padding: $--card-main-jb-padding;
   border-radius: 9px;
-  box-shadow: $--box-shadow-base;
+  box-shadow: $--jb-box-shadow-base;
   @include e(body){
     padding: 0;
   }
