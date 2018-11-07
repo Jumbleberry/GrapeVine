@@ -8,7 +8,6 @@
   width: 100%;
   margin: 20px 0;
   transition: all 0.3s ease;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
 
   &:hover{
     cursor: auto;
@@ -28,8 +27,6 @@
 
 //Next button
 .next-button {
-  padding-right: 47px;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
   background-color: $--jb-dark-primary-color;
   color: $--color-white;
   font-size: $--button-font-size;
