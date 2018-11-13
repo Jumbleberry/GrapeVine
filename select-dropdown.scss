@@ -1,5 +1,13 @@
 @import "../theme-chalk/src/select-dropdown.scss";
 
+@include b(select-dropdown) {
+  top: 317px !important;
+  width: 300px;
+  // left: -3px !important;
+}
+
+
 @include b(select-dropdown__list) {
   background: #f3f5ff;
 }
+
