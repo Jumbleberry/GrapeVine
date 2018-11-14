@@ -1,4 +1,4 @@
-
+$--border-color-base: #EEEEEE !default;
 
 @import "../../theme-chalk/src/common/var";
 
@@ -9,10 +9,11 @@ $--jb-font-path: '~@/theme/jumbleberry/fonts' !default;
 /* ----------------------------
 #JB-COLORS
 ------------------------------*/
-$--jb-dark-primary-color: #3660E2;
-$--jb-light-primary-color: #5078FB;
-$--jb-black-primary-color: #092165;
-$--jb-bg-primary-color: #f3f5ff;
+$--jb-dark-primary-color: #5A79EE;
+$--jb-light-primary-color: #4561FF;
+$--jb-black-primary-color: #162765;
+$--jb-bg-primary-color: #fff;
+$--jb-bg-accent-color: #F3F5FD;
 
 /*
 #JB-PLACEHOLDER-COLOR
