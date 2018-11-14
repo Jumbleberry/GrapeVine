@@ -4,6 +4,7 @@
 @include b(input) {
   @include e(inner) {
     color: $--jb-dark-primary-color;
+    height: 67px;
     &::placeholder {
       color: $--color-text-jb-placeholder;
     }
