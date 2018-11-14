@@ -13,6 +13,7 @@
     cursor: auto;
     box-shadow: $--box-shadow-dark;
     transform: translateY(-3px);
+    background: white;
   }
   &:focus{
     border-width: $--jb-button-border-focus;
