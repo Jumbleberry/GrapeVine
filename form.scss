@@ -37,31 +37,31 @@
 }
 
 //----- custom -----
-.floating-label {
-  .el-input__prefix {
-    pointer-events: none;
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    opacity: 0;
-    transition: all 0.3s ease;
-  }
-  // input no value - initial load
-  .form-item-input input:placeholder-shown {
-    padding: 0 15px;
-    font-size: 14px;
-  }
-  .form-item-input input:not(:placeholder-shown) {
-    padding: 23px 14px 9px;
-  }
-  .form-item-input input:not(:placeholder-shown) + .el-input__prefix {
-    transform: translateX(6px);
-    transform: translateY(-10px);
-    opacity: 1;
-    font-weight: bold;
-    color: rgb(41, 41, 182);
-  }
-}
+// .floating-label {
+//   .el-input__prefix {
+//     pointer-events: none;
+//     position: absolute;
+//     top: 10px;
+//     left: 15px;
+//     opacity: 0;
+//     transition: all 0.3s ease;
+//   }
+//   // input no value - initial load
+//   .form-item-input input:placeholder-shown {
+//     padding: 0 15px;
+//     font-size: 14px;
+//   }
+//   .form-item-input input:not(:placeholder-shown) {
+//     padding: 23px 14px 9px;
+//   }
+//   .form-item-input input:not(:placeholder-shown) + .el-input__prefix {
+//     transform: translateX(6px);
+//     transform: translateY(-10px);
+//     opacity: 1;
+//     font-weight: bold;
+//     color: rgb(41, 41, 182);
+//   }
+// }
 
 @include b(form) {
   @include b(form-item) {
