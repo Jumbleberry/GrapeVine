@@ -6,7 +6,6 @@
 @font-face {
   font-family: "Gilroy";
   font-weight: 100;
-  font-style: normal;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_0_0.eot");
   src: url("#{$--jb-font-path}/gilroy/font/379E29_0_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_0_0.woff2") format("woff2"),
@@ -32,16 +31,6 @@
     url("#{$--jb-font-path}/gilroy/font/379E29_B_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_B_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_B_0.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Gilroy";
-  font-weight: 400;
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_6_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_6_0.eot?#iefix") format("embedded-opentype"),
-    url("#{$--jb-font-path}/gilroy/font/379E29_6_0.woff2") format("woff2"),
-    url("#{$--jb-font-path}/gilroy/font/379E29_6_0.woff") format("woff"),
-    url("#{$--jb-font-path}/gilroy/font/379E29_6_0.ttf") format("truetype");
 }
 
 @font-face {
@@ -104,6 +93,16 @@
     url("#{$--jb-font-path}/gilroy/font/379E29_D_0.ttf") format("truetype");
 }
 
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("#{$--jb-font-path}/gilroy/font/379E29_6_0.eot");
+  src: url("#{$--jb-font-path}/gilroy/font/379E29_6_0.eot?#iefix") format("embedded-opentype"),
+    url("#{$--jb-font-path}/gilroy/font/379E29_6_0.woff2") format("woff2"),
+    url("#{$--jb-font-path}/gilroy/font/379E29_6_0.woff") format("woff"),
+    url("#{$--jb-font-path}/gilroy/font/379E29_6_0.ttf") format("truetype");
+}
+
 /*
 #ITALIC
 ------------------------------*/
@@ -139,17 +138,6 @@
     url("#{$--jb-font-path}/gilroy/font/379E29_A_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_A_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_A_0.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Gilroy";
-  font-weight: 400;
-  font-style: italic;
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_7_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_7_0.eot?#iefix") format("embedded-opentype"),
-    url("#{$--jb-font-path}/gilroy/font/379E29_7_0.woff2") format("woff2"),
-    url("#{$--jb-font-path}/gilroy/font/379E29_7_0.woff") format("woff"),
-    url("#{$--jb-font-path}/gilroy/font/379E29_7_0.ttf") format("truetype");
 }
 
 @font-face {
@@ -216,4 +204,15 @@
     url("#{$--jb-font-path}/gilroy/font/379E29_C_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_C_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_C_0.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-style: italic;
+  src: url("#{$--jb-font-path}/gilroy/font/379E29_7_0.eot");
+  src: url("#{$--jb-font-path}/gilroy/font/379E29_7_0.eot?#iefix") format("embedded-opentype"),
+    url("#{$--jb-font-path}/gilroy/font/379E29_7_0.woff2") format("woff2"),
+    url("#{$--jb-font-path}/gilroy/font/379E29_7_0.woff") format("woff"),
+    url("#{$--jb-font-path}/gilroy/font/379E29_7_0.ttf") format("truetype");
 }

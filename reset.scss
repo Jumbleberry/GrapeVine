@@ -3,8 +3,7 @@
 @import "./fonts/gilroy/index.scss";
 
 body {
-  font-family: "Gilroy","Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
-  font-weight: 400;
+  font-family: "Gilroy","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: $--font-size-medium;
   color: $--color-black;
   -webkit-font-smoothing: antialiased;
