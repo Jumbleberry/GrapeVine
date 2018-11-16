@@ -14,14 +14,18 @@
     box-shadow: $--box-shadow-dark;
     transform: translateY(-3px);
     background: white;
+    color: $--jb-light-primary-color;
+    border-color: $--jb-light-primary-color;
   }
   &:focus{
     border-width: $--jb-button-border-focus;
+    background: white;
   }
-  &:active {
-    transform: scale(0.99);
-    border-color: #3a8ee6;
+  &:active, &.active {
+    border-color: $--jb-dark-primary-color;
     outline: none;
+    transform: translateY(0px);
+    color: $--jb-dark-primary-color;
   }
 }
 
@@ -36,6 +40,7 @@
   margin: 8px 0;
 
   &:hover {
+    color: #fff;
     background: $--jb-light-primary-color;
     box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.18)
   }
