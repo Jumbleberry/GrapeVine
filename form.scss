@@ -60,3 +60,8 @@
 //     color: rgb(41, 41, 182);
 //   }
 // }
+@include b(form) {
+  .el-button + .el-button {
+    margin-left: 0px;
+  }
+}
