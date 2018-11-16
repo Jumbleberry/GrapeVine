@@ -10,7 +10,7 @@
   border-color: $--border-color-lighter;
   position: fixed;
   left: 50%;
-  bottom: 15%;
+  top: 77px;
   transform: translateX(-50%);
   background-color: $--message-background-color;
   transition: opacity 0.5s, transform .3s;
@@ -121,9 +121,8 @@
 
 
 // MQ'S
-@media (min-width: $--md) {
+@media (min-width: $--sm) {
   @include b(message) {
-    top: 20px;
-    bottom: 100%;
+    top: 37px;
   }
 }
