@@ -2,8 +2,6 @@
 @import "../theme-chalk/src/form.scss";
 
 @include b(form) {
-  padding: 5px;
-  border-radius: 9px;
   position: relative;
 }
 
