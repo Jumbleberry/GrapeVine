@@ -1,6 +1,33 @@
+/* ----------------------------
+# Element
+------------------------------*/
+
+/* Tooltip
+-------------------------- */
 $--color-primary: #5A79EE;
 $--border-color-base: #C1C1C1 !default;
 $--font-size-base: 16px !default;
+
+$--tooltip-fill: #f3f5ff !default;
+$--tooltip-color: #000 !default;
+$--tooltip-font-size: 12px !default;
+
+/* Tooltip
+-------------------------- */
+$--select-dropdown-background: #fff !default;
+$--select-dropdown-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) !default;
+$--select-dropdown-empty-color: #999 !default;
+$--select-dropdown-max-height: 274px !default;
+$--select-dropdown-padding: 6px 0 !default;
+$--select-dropdown-empty-padding: 10px 0 !default;
+$--select-dropdown-border: solid 1px #fff !default;
+
+@import "../../theme-chalk/src/common/var";
+@import "../../theme-chalk/src/mixins/mixins";
+
+/* ----------------------------
+# Jumbleberry
+------------------------------*/
 
 /* JB-Font
 -------------------------- */
@@ -127,6 +154,3 @@ $--jb-message-img-height: 177px !default;
 /* JB-MESSAGE
 -------------------------- */
 $--jb-message-min-width: 320px !default;
-
-@import "../../theme-chalk/src/common/var";
-@import "../../theme-chalk/src/mixins/mixins";
