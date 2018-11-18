@@ -9,7 +9,7 @@
     line-height: 26px;
     transition: all 0.2s ease;
     text-transform: uppercase;
-    &:hover{
+    &:hover, &.hover{
       background: $--jb-hover-autocomplete;
       color: $--color-white;
     }
