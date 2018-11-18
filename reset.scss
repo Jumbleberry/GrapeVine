@@ -2,11 +2,21 @@
 @import "common/var";
 @import "./fonts/gilroy/index.scss";
 
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 body {
   font-family: "Gilroy","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: $--font-size-medium;
   color: $--color-black;
   -webkit-font-smoothing: antialiased;
-  margin: 0;
   background: $--jb-bg-primary-color;
+  height: 100vh;
+  padding: 0;
+  overflow: auto;
+  margin: 0;
+  -webkit-overflow-scrolling: touch;
 }
