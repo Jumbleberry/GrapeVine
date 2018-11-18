@@ -11,6 +11,11 @@
     &:focus {
       box-shadow: $--box-shadow-base;
     }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
   }
   @include e(suffix) {
     font-size: $--input-icon-jb-font-size;
