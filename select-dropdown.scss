@@ -1,6 +1,9 @@
 @import "../theme-chalk/src/select-dropdown.scss";
 
-@include b(select-dropdown__list) {
-  background: #f3f5ff;
+@include b(select-dropdown) {
+  @include when(multiple) {
+    & .el-select-dropdown__item.selected {
+      background-color: #F3F5FB;
+    }
+  }
 }
-
