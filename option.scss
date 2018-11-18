@@ -3,14 +3,13 @@
 
 @include b(select-dropdown) {
   @include e(item) {
-    text-transform: uppercase;
     color: $--jb-dark-primary-color;
     &.hover, &:hover {
       background: $--jb-hover-autocomplete;
       color: $--color-white;
     }
     &.selected {
-      // color: $--select-option-selected;
+      color: $--color-white;
       font-weight: 400;
     }
   }

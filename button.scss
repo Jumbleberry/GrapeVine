@@ -9,6 +9,9 @@
   transition: $--all-transition;
   position: relative;
 
+  &.sortable-ghost, &.sortable-chosen, &.sortable-ghost {
+    transition: none;
+  }
   &:hover{
     cursor: auto;
     box-shadow: $--box-shadow-dark;
@@ -37,7 +40,7 @@
   border: none;
   transition: all 0.2s cubic-bezier(.645,.045,.355,1);
   outline: 0;
-  margin: 8px 0;
+  margin: 8px 0 32px 0;
 
   &:hover, &:focus {
     color: #fff;
