@@ -15,6 +15,6 @@
     }
   }
   @include e(wrap) {
-    background: #f3f5ff;
+    background: $--color-light;
   }
 }

@@ -9,11 +9,12 @@ $--color-success: #5A79EE !default;
 $--color-warning: #e6a23c !default;
 $--color-danger: #f56c6c !default;
 $--color-info: #909399 !default;
+$--color-light: #f3f5ff !default;
 
 $--border-color-base: #C1C1C1 !default;
 $--font-size-base: 16px !default;
 
-$--tooltip-fill: #f3f5ff !default;
+$--tooltip-fill: $--color-light;
 $--tooltip-color: #000 !default;
 $--tooltip-font-size: 12px !default;
 
@@ -135,7 +136,7 @@ $--jb-box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) 
 /*
 #JB-POPOVER-BORDER-COLOR
 ------------------------------*/
-$--jb-popover-border-color: #f3f5ff !default;
+$--jb-popover-border-color: $--color-light !default;
 
 /*
 #JB-SPECIFIC-COLOR

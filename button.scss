@@ -16,16 +16,13 @@
     cursor: auto;
     box-shadow: $--box-shadow-dark;
     transform: translateY(-3px);
-    background: white;
+    background: $--color-light;
     color: $--jb-light-primary-color;
     border-color: $--jb-light-primary-color;
   }
-  &:focus{
-    border-width: $--jb-button-border-focus;
-    background: white;
-  }
-  &:active, &.active {
+  &:active, &.active, &:focus {
     border-color: $--jb-dark-primary-color;
+    background: $--color-light;
     outline: none;
     transform: translateY(0px);
     color: $--jb-dark-primary-color;
