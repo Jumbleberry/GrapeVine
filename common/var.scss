@@ -4,7 +4,12 @@
 
 /* Tooltip
 -------------------------- */
-$--color-primary: #5A79EE;
+$--color-primary: #5A79EE !default;
+$--color-success: #5A79EE !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #f56c6c !default;
+$--color-info: #909399 !default;
+
 $--border-color-base: #C1C1C1 !default;
 $--font-size-base: 16px !default;
 
