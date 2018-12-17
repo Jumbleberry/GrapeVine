@@ -5,12 +5,14 @@
   cursor: auto;
   text-align: center;
   height: $--button-jb-height;
-  width: 100%;
   transition: $--all-transition;
   position: relative;
 
   &.sortable-ghost, &.sortable-chosen, &.sortable-ghost {
     transition: none;
+  }
+  &.btn-100 {
+    width: 100%;
   }
   &:hover{
     cursor: auto;
@@ -38,6 +40,7 @@
   transition: all 0.2s cubic-bezier(.645,.045,.355,1);
   outline: 0;
   margin: 8px 0 32px 0;
+  @extend .btn-100;
 
   &:hover, &:focus {
     color: #fff;
