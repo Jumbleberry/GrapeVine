@@ -8,6 +8,32 @@
 @include b(form-item) {
   position: relative;
   margin-bottom: $--form-item-margin-bottom;
+  @include when(error) {
+    & .el-form-item__content {
+      transition: padding-bottom 0.2s ease;
+      padding-bottom: 25px;
+    }
+    & .el-form-item__label + .el-form-item__content {
+      @include e(error) {
+        top: 105px;
+      }
+    }
+    & .el-input__inner,
+    & .el-textarea__inner {
+      &, &:focus {
+        border-color: $--color-danger;
+      }
+    }
+    & .el-input-group__append,
+    & .el-input-group__prepend {
+      & .el-input__inner {
+        border-color: transparent;
+      }
+    }
+    .el-input__validateIcon {
+      color: $--color-danger;
+    }
+  }
   @include when(success) {
     & .el-input__inner,
     & .el-textarea__inner {
@@ -28,38 +54,13 @@
     }
   }
   @include e(error) {
-    top: 66px;
+    top: 65px;
+    left: 5px;
+    z-index: 9999999;
     text-align: left;
-    left: 2px;
   }
 }
 
-//----- custom -----
-// .floating-label {
-//   .el-input__prefix {
-//     pointer-events: none;
-//     position: absolute;
-//     top: 10px;
-//     left: 15px;
-//     opacity: 0;
-//     transition: all 0.3s ease;
-//   }
-//   // input no value - initial load
-//   .form-item-input input:placeholder-shown {
-//     padding: 0 15px;
-//     font-size: 14px;
-//   }
-//   .form-item-input input:not(:placeholder-shown) {
-//     padding: 23px 14px 9px;
-//   }
-//   .form-item-input input:not(:placeholder-shown) + .el-input__prefix {
-//     transform: translateX(6px);
-//     transform: translateY(-10px);
-//     opacity: 1;
-//     font-weight: bold;
-//     color: rgb(41, 41, 182);
-//   }
-// }
 @include b(form) {
   .el-button + .el-button {
     margin-left: 0px;
