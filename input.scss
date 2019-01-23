@@ -34,3 +34,9 @@
     }
   }
 }
+
+@include b(input) {
+  .el-input__inner {
+    min-height: 60px !important;
+  }
+}
