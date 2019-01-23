@@ -9,13 +9,10 @@
   position: relative;
   margin-bottom: $--form-item-margin-bottom;
   @include when(error) {
-    & .el-form-item__content {
-      transition: padding-bottom 0.2s ease;
-      padding-bottom: 25px;
-    }
-    & .el-form-item__label + .el-form-item__content {
+    & .el-form-item__label + .el-form-item__content,
+    .el-form-item__label + & .el-form-item__content {
       @include e(error) {
-        top: 105px;
+        top: 100px;
       }
     }
     & .el-input__inner,
@@ -54,7 +51,7 @@
     }
   }
   @include e(error) {
-    top: 65px;
+    top: 60px;
     left: 5px;
     text-align: left;
   }
