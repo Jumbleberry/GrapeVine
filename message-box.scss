@@ -65,7 +65,7 @@
     }
 
     &:focus,
- &:hover {
+    &:hover {
       .el-message-box__close {
         color: $--color-primary;
       }

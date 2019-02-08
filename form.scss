@@ -20,7 +20,7 @@
     & .el-input__inner,
     & .el-textarea__inner {
       &,
- &:focus {
+      &:focus {
         border-color: $--color-danger;
       }
     }
@@ -41,7 +41,7 @@
     & .el-input__inner,
     & .el-textarea__inner {
       &,
- &:focus {
+      &:focus {
         border-color: $--color-success;
         border-width: 1px;
       }

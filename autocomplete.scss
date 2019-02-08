@@ -12,7 +12,7 @@
     text-transform: uppercase;
 
     &:hover,
- &.hover {
+    &.hover {
       background: $--jb-hover-autocomplete;
       color: $--color-white;
     }
