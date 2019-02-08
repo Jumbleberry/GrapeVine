@@ -17,18 +17,18 @@
     display: contents;
   }
 
-  &:hover {
-    .el-input__inner {
-      border-color: $--select-border-color-hover;
-    }
-  }
-
   .el-input__inner {
     cursor: pointer;
     padding-right: 35px;
 
     &:focus {
       border-color: $--select-input-focus-background;
+    }
+  }
+
+  &:hover {
+    .el-input__inner {
+      border-color: $--select-border-color-hover;
     }
   }
 
@@ -58,6 +58,10 @@
       }
     }
 
+    &.is-focus .el-input__inner {
+      border-color: $--select-input-focus-background;
+    }
+
     &.is-disabled {
       & .el-input__inner {
         cursor: not-allowed;
@@ -66,10 +70,6 @@
           border-color: $--select-disabled-border;
         }
       }
-    }
-
-    &.is-focus .el-input__inner {
-      border-color: $--select-input-focus-background;
     }
   }
 
@@ -147,5 +147,3 @@
     }
   }
 }
-
-

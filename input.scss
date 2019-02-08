@@ -10,14 +10,14 @@
       color: $--color-text-jb-placeholder;
     }
 
-    &:focus {
-      box-shadow: $--box-shadow-base;
-    }
-
     &::-webkit-outer-spin-button,
     &::-webkit-inner-spin-button {
       -webkit-appearance: none;
       margin: 0;
+    }
+
+    &:focus {
+      box-shadow: $--box-shadow-base;
     }
   }
 

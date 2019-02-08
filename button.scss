@@ -8,7 +8,6 @@
   transition: $--all-transition;
   position: relative;
 
-  &.sortable-ghost,
   &.sortable-chosen,
   &.sortable-ghost {
     transition: none;
@@ -67,6 +66,3 @@
   bottom: -13px;
   margin-bottom: 0;
 }
-
-
-
