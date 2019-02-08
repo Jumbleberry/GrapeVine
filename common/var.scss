@@ -1,18 +1,18 @@
 /* ----------------------------
 # Element
-------------------------------*/
+------------------------------ */
 $--color-text-regular: #878787;
 
 /* Tooltip
 -------------------------- */
-$--color-primary: #5A79EE !default;
-$--color-success: #5A79EE !default;
+$--color-primary: #5a79ee !default;
+$--color-success: #5a79ee !default;
 $--color-warning: #e6a23c !default;
 $--color-danger: #f56c6c !default;
 $--color-info: #909399 !default;
 $--color-light: #f3f5ff !default;
 
-$--border-color-base: #C1C1C1 !default;
+$--border-color-base: #c1c1c1 !default;
 $--font-size-base: 16px !default;
 
 $--tooltip-fill: $--color-light;
@@ -22,7 +22,7 @@ $--tooltip-font-size: 12px !default;
 /* Tooltip
 -------------------------- */
 $--select-dropdown-background: #fff !default;
-$--select-dropdown-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) !default;
+$--select-dropdown-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04) !default;
 $--select-dropdown-empty-color: #999 !default;
 $--select-dropdown-max-height: 182px !default;
 $--select-dropdown-padding: 6px 0 !default;
@@ -34,7 +34,7 @@ $--select-dropdown-border: solid 1px #fff !default;
 
 /* ----------------------------
 # Jumbleberry
-------------------------------*/
+------------------------------ */
 
 /* JB-Font
 -------------------------- */
@@ -42,16 +42,16 @@ $--jb-font-path: '~@/theme/jumbleberry/fonts' !default;
 
 /* ----------------------------
 #JB-COLORS
-------------------------------*/
-$--jb-dark-primary-color: #5A79EE;
-$--jb-light-primary-color: #4561FF;
+------------------------------ */
+$--jb-dark-primary-color: #5a79ee;
+$--jb-light-primary-color: #4561ff;
 $--jb-black-primary-color: #162765;
 $--jb-bg-primary-color: #fff;
-$--jb-bg-accent-color: #F3F5FD;
+$--jb-bg-accent-color: #f3f5fd;
 
 /*
 #JB-PLACEHOLDER-COLOR
-------------------------------*/
+------------------------------ */
 $--color-text-jb-placeholder: #878787 !default;
 
 /* Font
@@ -60,23 +60,23 @@ $--font-size-medium: 16px !default;
 
 /*
 #JB-SPECIFIC-META-COPY
-------------------------------*/
+------------------------------ */
 $--jb-meta-desc-copy: 13px !default;
 $--jb-meta-text-align: left !default;
 $--jb-meta-line-height: 20px !default;
 
 /*
 #JB-SPECIFIC-ICON
-------------------------------*/
+------------------------------ */
 $--jb-icon-checkmark-size: 24px !default;
 
 /*
 #JB-SPECIFIC-MEDIA-ICON-OBJECT
-------------------------------*/
+------------------------------ */
 $--jb-media-icon-flex: flex !default;
 $--jb-media-icon-padding: 14px 0 !default;
 $--jb-media-icon-align: flex-start !default;
-$--jb-media-icon-margin: 0px !default;
+$--jb-media-icon-margin: 0 !default;
 $--jb-media-icon-right-text-align: left !default;
 $--jb-media-icon-right-padding: 10px !default;
 $--jb-media-icon-right-line-height: 16px !default;
@@ -84,25 +84,25 @@ $--jb-media-icon-description: 12px;
 
 /*
 #Form
---------------------------*/
+-------------------------- */
 
 /*
 #Form-Item
---------------------------*/
+-------------------------- */
 $--form-item-margin-bottom: 10px;
 
 /*
 #JB-SPECIFIC-INPUT
-------------------------------*/
+------------------------------ */
 
 /*
 #BORDER
-------------------------------*/
+------------------------------ */
 $--border-color-hover: $--color-text-jb-placeholder !default;
 
 /*
 #INPUT
-------------------------------*/
+------------------------------ */
 $--input-letter-spacing: 0.5px !default;
 $--input-font-size: $--font-size-medium !default;
 $--input-icon-jb-font-size: 20px !default;
@@ -119,7 +119,7 @@ $--jb-hover-autocomplete: $--jb-light-primary-color !default;
 
 /*
 #JB-SPECIFIC-BUTTON
-------------------------------*/
+------------------------------ */
 $--button-jb-height: 60px !default;
 $--jb-button-border-focus: 1px;
 $--jb-button-border-active: 1px solid;
@@ -127,35 +127,35 @@ $--jb-button-border-active: 1px solid;
 
 /*
 #JB-NEXT-BUTTON
-------------------------------*/
-$--jb-next-box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.13);
+------------------------------ */
+$--jb-next-box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.13);
 
 /*
 #JB-BOX-SHADOW
-------------------------------*/
-$--jb-box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04) !default;
+------------------------------ */
+$--jb-box-shadow-base: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04) !default;
 
 /*
 #JB-POPOVER-BORDER-COLOR
-------------------------------*/
+------------------------------ */
 $--jb-popover-border-color: $--color-light !default;
 
 /*
 #JB-SPECIFIC-COLOR
-------------------------------*/
+------------------------------ */
 $--card-main-jb-padding: 34px 50px 39px !default;
 
 /*
 #JB-HEADER-h2
---------------------------*/
+-------------------------- */
 $--jb-header-h2: 24px !default;
 
 /*
 #JB-MESSAGE-PAGE
-------------------------------*/
-$--jb-message-content-margin-title: 0px !default;
+------------------------------ */
+$--jb-message-content-margin-title: 0 !default;
 $--jb-message-content-margin-bottom: 8px !default;
-$--jb-message-img-margin: 30px 0px !default;
+$--jb-message-img-margin: 30px 0 !default;
 $--jb-message-img-width: 177px !default;
 $--jb-message-img-height: 177px !default;
 

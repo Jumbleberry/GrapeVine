@@ -2,17 +2,20 @@
 
 @include b(alert) {
   margin-bottom: 10px;
-  .el-icon-success.is-big{
+
+  .el-icon-success.is-big {
     font-size: 19px;
   }
-  .el-alert__content{
+
+  .el-alert__content {
     text-align: left;
   }
-  .el-alert__icon{
+
+  .el-alert__icon {
     color: $--color-primary;
   }
+
   @include e(closebtn) {
     display: none;
   }
-
 }

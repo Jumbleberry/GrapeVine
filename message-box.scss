@@ -64,12 +64,12 @@
       color: $--color-info;
     }
 
-    &:focus, &:hover {
+    &:focus,
+ &:hover {
       .el-message-box__close {
         color: $--color-primary;
       }
     }
-
   }
 
   @include e(content) {
@@ -84,6 +84,7 @@
 
     & input.invalid {
       border-color: $--color-danger;
+
       &:focus {
         border-color: $--color-danger;
       }
@@ -193,11 +194,11 @@
 }
 
 .msgbox-fade-enter-active {
-  animation: msgbox-fade-in .3s;
+  animation: msgbox-fade-in 0.3s;
 }
 
 .msgbox-fade-leave-active {
-  animation: msgbox-fade-out .3s;
+  animation: msgbox-fade-out 0.3s;
 }
 
 @keyframes msgbox-fade-in {
@@ -205,6 +206,7 @@
     transform: translate3d(0, -20px, 0);
     opacity: 0;
   }
+
   100% {
     transform: translate3d(0, 0, 0);
     opacity: 1;
@@ -216,6 +218,7 @@
     transform: translate3d(0, 0, 0);
     opacity: 1;
   }
+
   100% {
     transform: translate3d(0, -20px, 0);
     opacity: 0;
@@ -229,7 +232,8 @@
 
 @include b(message-box) {
   width: 320px;
-    @include e(btns) {
+
+  @include e(btns) {
     padding: 5px 15px 0;
     text-align: center;
 

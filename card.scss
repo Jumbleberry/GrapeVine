@@ -5,9 +5,11 @@
   padding: $--card-main-jb-padding;
   border-radius: 9px;
   box-shadow: $--jb-box-shadow-base;
-  @include e(body){
+
+  @include e(body) {
     padding: 0;
   }
+
   @include e(header) {
     padding: #{$--card-padding - 2 $--card-padding};
     border-bottom: 1px solid $--card-border-color;

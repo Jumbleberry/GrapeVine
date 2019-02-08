@@ -4,7 +4,10 @@
 @include b(select-dropdown) {
   @include e(item) {
     color: $--jb-dark-primary-color;
-    &.hover, &:hover, &.selected {
+
+    &.hover,
+ &:hover,
+ &.selected {
       background: $--jb-hover-autocomplete;
       color: $--color-white;
     }

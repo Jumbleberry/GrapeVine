@@ -2,12 +2,13 @@
 
 /*
 #NORMAL
-------------------------------*/
+------------------------------ */
 @font-face {
   font-family: "Gilroy";
   font-weight: 100;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_0_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_0_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_0_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_0_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_0_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_0_0.ttf") format("truetype");
@@ -17,7 +18,8 @@
   font-family: "Gilroy";
   font-weight: 200;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_5_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_5_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_5_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_5_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_5_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_5_0.ttf") format("truetype");
@@ -27,7 +29,8 @@
   font-family: "Gilroy";
   font-weight: 300;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_B_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_B_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_B_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_B_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_B_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_B_0.ttf") format("truetype");
@@ -37,7 +40,8 @@
   font-family: "Gilroy";
   font-weight: 500;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_9_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_9_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_9_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_9_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_9_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_9_0.ttf") format("truetype");
@@ -47,7 +51,8 @@
   font-family: "Gilroy";
   font-weight: 600;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_4_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_4_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_4_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_4_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_4_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_4_0.ttf") format("truetype");
@@ -57,7 +62,8 @@
   font-family: "Gilroy";
   font-weight: 700;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_11_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_11_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_11_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_11_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_11_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_11_0.ttf") format("truetype");
@@ -67,7 +73,8 @@
   font-family: "Gilroy";
   font-weight: 800;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_F_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_F_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_F_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_F_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_F_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_F_0.ttf") format("truetype");
@@ -77,7 +84,8 @@
   font-family: "Gilroy";
   font-weight: 900;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_13_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_13_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_13_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_13_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_13_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_13_0.ttf") format("truetype");
@@ -87,7 +95,8 @@
   font-family: "Gilroy";
   font-weight: 1000;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_D_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_D_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_D_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_D_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_D_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_D_0.ttf") format("truetype");
@@ -97,7 +106,8 @@
 @font-face {
   font-family: "Gilroy";
   src: url("#{$--jb-font-path}/gilroy/font/379E29_6_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_6_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_6_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_6_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_6_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_6_0.ttf") format("truetype");
@@ -105,14 +115,15 @@
 
 /*
 #ITALIC
-------------------------------*/
+------------------------------ */
 
 @font-face {
   font-family: "Gilroy";
   font-weight: 100;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_2_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_2_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_2_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_2_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_2_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_2_0.ttf") format("truetype");
@@ -123,7 +134,8 @@
   font-weight: 200;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_1_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_1_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_1_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_1_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_1_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_1_0.ttf") format("truetype");
@@ -134,7 +146,8 @@
   font-weight: 300;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_A_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_A_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_A_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_A_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_A_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_A_0.ttf") format("truetype");
@@ -145,7 +158,8 @@
   font-weight: 500;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_8_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_8_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_8_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_8_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_8_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_8_0.ttf") format("truetype");
@@ -156,7 +170,8 @@
   font-weight: 600;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_3_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_3_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_3_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_3_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_3_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_3_0.ttf") format("truetype");
@@ -167,7 +182,8 @@
   font-weight: 700;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_10_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_10_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_10_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_10_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_10_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_10_0.ttf") format("truetype");
@@ -178,7 +194,8 @@
   font-weight: 800;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_E_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_E_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_E_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_E_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_E_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_E_0.ttf") format("truetype");
@@ -189,7 +206,8 @@
   font-weight: 900;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_12_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_12_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_12_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_12_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_12_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_12_0.ttf") format("truetype");
@@ -200,7 +218,8 @@
   font-weight: 1000;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_C_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_C_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_C_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_C_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_C_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_C_0.ttf") format("truetype");
@@ -211,7 +230,8 @@
   font-weight: 400;
   font-style: italic;
   src: url("#{$--jb-font-path}/gilroy/font/379E29_7_0.eot");
-  src: url("#{$--jb-font-path}/gilroy/font/379E29_7_0.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("#{$--jb-font-path}/gilroy/font/379E29_7_0.eot?#iefix") format("embedded-opentype"),
     url("#{$--jb-font-path}/gilroy/font/379E29_7_0.woff2") format("woff2"),
     url("#{$--jb-font-path}/gilroy/font/379E29_7_0.woff") format("woff"),
     url("#{$--jb-font-path}/gilroy/font/379E29_7_0.ttf") format("truetype");

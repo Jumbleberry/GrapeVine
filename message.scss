@@ -13,7 +13,7 @@
   top: 77px;
   transform: translateX(-50%);
   background-color: $--message-background-color;
-  transition: opacity 0.5s, transform .3s;
+  transition: opacity 0.5s, transform 0.3s;
   overflow: hidden;
   padding: $--message-padding;
   display: flex;
@@ -74,6 +74,7 @@
     padding: 0;
     font-size: 14px;
     line-height: 1;
+
     &:focus {
       outline-width: 0;
     }
@@ -91,6 +92,7 @@
     &:focus {
       outline-width: 0;
     }
+
     &:hover {
       color: $--message-close-hover-color;
     }

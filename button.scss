@@ -8,13 +8,17 @@
   transition: $--all-transition;
   position: relative;
 
-  &.sortable-ghost, &.sortable-chosen, &.sortable-ghost {
+  &.sortable-ghost,
+ &.sortable-chosen,
+ &.sortable-ghost {
     transition: none;
   }
+
   &.btn-100 {
     width: 100%;
   }
-  &:hover{
+
+  &:hover {
     cursor: auto;
     box-shadow: $--box-shadow-dark;
     transform: translateY(-3px);
@@ -22,11 +26,14 @@
     color: $--jb-light-primary-color;
     border-color: $--jb-light-primary-color;
   }
-  &:active, &.active, &:focus {
+
+  &:active,
+ &.active,
+ &:focus {
     border-color: $--jb-dark-primary-color;
     background: $--color-light;
     outline: none;
-    transform: translateY(0px);
+    transform: translateY(0);
     color: $--jb-dark-primary-color;
   }
 }
@@ -37,21 +44,25 @@
   color: $--color-white;
   font-size: $--button-font-size;
   border: none;
-  transition: all 0.2s cubic-bezier(.645,.045,.355,1);
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
   outline: 0;
   margin: 8px 0 32px 0;
+
   @extend .btn-100;
 
-  &:hover, &:focus {
+  &:hover,
+ &:focus {
     color: #fff;
     background: $--jb-light-primary-color;
-    box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.18)
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.18);
   }
+
   &:active {
     background: $--jb-dark-primary-color;
   }
 }
-.show-password-button{
+
+.show-password-button {
   position: relative;
   bottom: -13px;
   margin-bottom: 0;
