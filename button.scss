@@ -2,7 +2,6 @@
 @import "../theme-chalk/src/button.scss";
 
 @include b(button) {
-  cursor: auto;
   text-align: center;
   height: $--button-jb-height;
   transition: $--all-transition;
@@ -18,7 +17,6 @@
   }
 
   &:hover {
-    cursor: auto;
     box-shadow: $--box-shadow-dark;
     transform: translateY(-3px);
     background: $--color-light;
