@@ -57,6 +57,7 @@ $--color-text-jb-placeholder: #878787 !default;
 /* Font
 -------------------------- */
 $--font-size-medium: 16px !default;
+$--jb-font-size-small: 14px !default;
 
 /*
 #JB-SPECIFIC-META-COPY
@@ -161,3 +162,21 @@ $--jb-message-img-height: 177px !default;
 /* JB-MESSAGE
 -------------------------- */
 $--jb-message-min-width: 320px !default;
+
+/* JB-CHECKBOX
+-------------------------- */
+$--jb-checkbox-padding: 20px 15px !default;
+$--jb-checkbox-label-padding-left: 3px !default;
+$--jb-checkbox-margin: 12px !default;
+
+/* JB-DRAGGABLE
+-------------------------- */
+$--jb-draggable-margin: 16px 0 !default;
+
+/* JB SURVEY
+-------------------------- */
+$--jb-survey-sub-header: #757575 !default;
+
+/* JB BACKLINK
+-------------------------- */
+$--jb-backlink-padding: 12px 9px !default;
