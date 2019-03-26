@@ -63,6 +63,10 @@
     top: 60px;
     left: 5px;
     text-align: left;
+
+    &.el-form-item__success {
+      color: $--color-success;
+    }
   }
 }
 
