@@ -22,7 +22,7 @@
   }
 
   @include e(suffix) {
-    font-size: $--input-icon-jb-font-size;
+    font-size: $--jb-icon-checkmark-size;
     right: $--jb-input-icon-position;
   }
 

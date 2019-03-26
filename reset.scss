@@ -3,7 +3,10 @@
 @import "./fonts/gilroy/index.scss";
 
 html {
-  height: 100%;
+  min-height: 100vh;
+  /* stylelint-disable */
+  min-height: calc(100vh - var(--vh-offset, 0px));
+  /* stylelint-enable */
   width: 100%;
   overflow: hidden;
 }
@@ -14,7 +17,10 @@ body {
   color: $--color-black;
   -webkit-font-smoothing: antialiased;
   background: $--jb-bg-primary-color;
-  height: 100vh;
+  min-height: 100vh;
+  /* stylelint-disable */
+  min-height: calc(100vh - var(--vh-offset, 0px));
+  /* stylelint-enable */
   padding: 0;
   overflow: auto;
   margin: 0;
