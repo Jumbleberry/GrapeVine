@@ -1,1 +1,7 @@
 @import "../theme-chalk/src/checkbox.scss";
+
+@include b(checkbox) {
+  & + .el-checkbox.is-bordered {
+    margin-left: 0;
+  }
+}
