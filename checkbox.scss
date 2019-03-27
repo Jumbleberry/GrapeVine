@@ -1,7 +1,14 @@
 @import "../theme-chalk/src/checkbox.scss";
 
 @include b(checkbox) {
-  & + .el-checkbox.is-bordered {
-    margin-left: 0 !important;
+  @include when(bordered) {
+    & + .el-checkbox.is-bordered {
+      margin-left: 0 !important;
+    }
   }
 }
+/* stylelint-disable */
+  .el-checkbox.is-bordered +
+  .el-checkbox.is-bordered{
+    margin-left: 0 !important;
+  }
