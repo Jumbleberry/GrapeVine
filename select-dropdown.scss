@@ -8,14 +8,14 @@
   }
 }
 
-@media (max-width: $--sm) and (max-height: 600px) {
-  @include b(select-dropdown__wrap) {
-    max-height: $--select-dropdown-max-height / 5 * 2.6;
-  }
-}
-
 @media (max-width: $--sm) and (max-height: 800px) {
   @include b(select-dropdown__wrap) {
     max-height: $--select-dropdown-max-height / 5 * 3.5;
+  }
+}
+
+@media (max-width: $--sm) and (max-height: 600px) {
+  @include b(select-dropdown__wrap) {
+    max-height: $--select-dropdown-max-height / 5 * 2.6;
   }
 }
