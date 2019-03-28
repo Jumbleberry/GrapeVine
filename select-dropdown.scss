@@ -7,3 +7,9 @@
     }
   }
 }
+
+@media (max-width: $--sm) and (max-height: 800px) {
+  @include b(select-dropdown__wrap) {
+    max-height: $--select-dropdown-max-height / 5 * 3.5;
+  }
+}
