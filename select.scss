@@ -22,7 +22,7 @@
     padding-right: 35px;
 
     &:focus {
-      border-color: $--select-input-focus-background;
+      border-color: $--select-input-focus-border-color;
     }
   }
 
@@ -59,7 +59,7 @@
     }
 
     &.is-focus .el-input__inner {
-      border-color: $--select-input-focus-background;
+      border-color: $--select-input-focus-border-color;
     }
 
     &.is-disabled {
