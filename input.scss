@@ -41,6 +41,14 @@
     }
   }
 
+  @include m(small) {
+    font-size: $--input-mini-font-size;
+
+    @include e(inner) {
+      min-height: 50px !important;
+    }
+  }
+
   @include m(mini) {
     font-size: $--input-mini-font-size;
 
