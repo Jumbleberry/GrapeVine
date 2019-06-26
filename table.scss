@@ -1,1 +1,12 @@
 @import "../theme-chalk/src/table.scss";
+
+/* stylelint-disable */
+@include b(table) {
+
+   @include m(enable-row-hover) {
+    .el-table__body tr:hover > td {
+      background-color: $--clb-btn-bg-color !important;
+      color: white;
+    }
+  }
+}
