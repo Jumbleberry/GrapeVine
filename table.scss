@@ -4,9 +4,16 @@
 @include b(table) {
 
    @include m(enable-row-hover) {
-    .el-table__body tr:hover > td {
-      background-color: $--clb-btn-bg-color !important;
-      color: white;
+    .el-table__body tr {
+      transition: 0.3s ease;
+    }
+
+    .el-table__body tr:hover {
+      transform: translateY(-6px) !important;
+      cursor: pointer;
+      box-shadow: 0 2px 8px 0 rgba(28, 24, 7, 0.15);
+      background: #f3f5fd;
+      color: $--clb-btn-font-color;
     }
   }
 }
