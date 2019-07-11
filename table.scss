@@ -1,1 +1,20 @@
 @import "../theme-chalk/src/table.scss";
+
+@include b(table) {
+  td .cell {
+    font-weight: 700;
+    font-size: $--font-size-base + 2px;
+    color: #262626;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  border-radius: $--clb-border-radius !important;
+
+  .el-table__body tr > td {
+    cursor: pointer;
+    border: 1px solid #c1c1c1 !important;
+    transition: 0.3s ease;
+  }
+}
