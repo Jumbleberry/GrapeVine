@@ -2,7 +2,7 @@
 
 @include b(checkbox) {
   @include when(bordered) {
-    & + .el-checkbox.is-bordered {
+    + .el-checkbox.is-bordered {
       margin-left: 0 !important;
     }
   }

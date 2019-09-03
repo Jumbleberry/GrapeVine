@@ -33,7 +33,7 @@
   }
 
   .el-input {
-    & .el-select__caret {
+    .el-select__caret {
       color: $--select-input-color;
       font-size: $--select-input-font-size;
       transition: transform 0.3s;
@@ -63,7 +63,7 @@
     }
 
     &.is-disabled {
-      & .el-input__inner {
+      .el-input__inner {
         cursor: not-allowed;
 
         &:hover {

@@ -6,7 +6,7 @@
 }
 
 @include b(autocomplete-suggestion) {
-  & li {
+  li {
     line-height: 26px;
     transition: all 0.2s ease;
     text-transform: uppercase;
