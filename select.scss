@@ -14,7 +14,8 @@
   position: relative;
 
   .el-select__tags > span {
-    display: contents;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .el-input__inner {
