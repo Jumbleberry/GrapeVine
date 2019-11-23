@@ -2,8 +2,14 @@
 
 @include b(select-dropdown) {
   @include when(multiple) {
-    .el-select-dropdown__item.selected {
-      background-color: #f3f5fd;
+    .el-select-dropdown__item {
+      &.selected {
+        background-color: #f3f5fd;
+      }
+
+      &.is-disabled:hover {
+        color: $--color-text-placeholder;
+      }
     }
   }
 }
