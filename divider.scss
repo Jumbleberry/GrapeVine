@@ -1,0 +1,5 @@
+@import "../theme-chalk/src/divider.scss";
+
+@include b(divider) {
+  background-color: $--clb-shadow-color;
+}
