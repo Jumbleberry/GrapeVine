@@ -42,7 +42,7 @@
   }
 
   @include m(small) {
-    font-size: $--input-mini-font-size;
+    font-size: $--input-medium-font-size;
 
     @include e(inner) {
       min-height: 50px !important;
@@ -50,11 +50,13 @@
   }
 
   @include m(mini) {
-    font-size: $--input-mini-font-size;
-
     @include e(inner) {
-      min-height: 20px !important;
-      border: 2px solid grey;
+      min-height: 36px !important;
+    }
+
+    .el-input__inner {
+      padding: 12px;
+      font-size: $--input-medium-font-size;
     }
 
     .el-input__icon {
