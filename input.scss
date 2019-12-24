@@ -3,7 +3,6 @@
 
 @include b(input) {
   @include e(inner) {
-    color: $--jb-dark-primary-color;
     height: 60px;
     min-height: 60px !important;
     font-size: 18px;
@@ -16,6 +15,11 @@
     &::-webkit-inner-spin-button {
       -webkit-appearance: none;
       margin: 0;
+    }
+
+    &:hover,
+    &:focus {
+      color: $--jb-dark-primary-color;
     }
 
     &:focus {
