@@ -1,1 +1,54 @@
 @import "../theme-chalk/src/popover.scss";
+
+@include b(popover) {
+  text-align: left;
+  word-break: break-word;
+
+  @include e(title) {
+    font-weight: bold;
+  }
+
+  &.dark {
+    background: $--clb-color__headings;
+    border: 1px solid $--clb-color__headings;
+    color: #e6e6e6;
+
+    .el-popover__title {
+      color: #fff;
+    }
+
+    &.el-popper {
+      &[x-placement^="top"] .popper__arrow {
+        border-top-color: $--clb-color__headings;
+
+        &::after {
+          border-top-color: $--clb-color__headings;
+        }
+      }
+
+      &[x-placement^="bottom"] .popper__arrow {
+        border-bottom-color: $--clb-color__headings;
+
+        &::after {
+          border-bottom-color: $--clb-color__headings;
+        }
+      }
+
+      &[x-placement^="right"] .popper__arrow {
+        border-right-color: $--clb-color__headings;
+
+        &::after {
+          border-right-color: $--clb-color__headings;
+        }
+      }
+
+      &[x-placement^="left"] .popper__arrow {
+        border-left-color: $--clb-color__headings;
+
+        &::after {
+          border-left-color: $--clb-color__headings;
+        }
+      }
+    }
+  }
+}

@@ -30,6 +30,10 @@ $--select-dropdown-padding: 6px 0 !default;
 $--select-dropdown-empty-padding: 10px 0 !default;
 $--select-dropdown-border: solid 1px #fff !default;
 
+/* Popover
+-------------------------- */
+$--popover-font-size: $--font-size-base - 2px;
+
 @import "../../theme-chalk/src/common/var";
 @import "../../theme-chalk/src/mixins/mixins";
 
