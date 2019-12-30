@@ -9,8 +9,8 @@
   }
 
   &.dark {
-    background: $--clb-color__headings;
-    border: 1px solid $--clb-color__headings;
+    background: #303e4f;
+    border: 1px solid #303e4f;
     color: #e6e6e6;
 
     .el-popover__title {
@@ -19,34 +19,34 @@
 
     &.el-popper {
       &[x-placement^="top"] .popper__arrow {
-        border-top-color: $--clb-color__headings;
+        border-top-color: #303e4f;
 
         &::after {
-          border-top-color: $--clb-color__headings;
+          border-top-color: #303e4f;
         }
       }
 
       &[x-placement^="bottom"] .popper__arrow {
-        border-bottom-color: $--clb-color__headings;
+        border-bottom-color: #303e4f;
 
         &::after {
-          border-bottom-color: $--clb-color__headings;
+          border-bottom-color: #303e4f;
         }
       }
 
       &[x-placement^="right"] .popper__arrow {
-        border-right-color: $--clb-color__headings;
+        border-right-color: #303e4f;
 
         &::after {
-          border-right-color: $--clb-color__headings;
+          border-right-color: #303e4f;
         }
       }
 
       &[x-placement^="left"] .popper__arrow {
-        border-left-color: $--clb-color__headings;
+        border-left-color: #303e4f;
 
         &::after {
-          border-left-color: $--clb-color__headings;
+          border-left-color: #303e4f;
         }
       }
     }
