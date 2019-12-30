@@ -12,7 +12,8 @@ $--color-danger: #f56c6c !default;
 $--color-info: #909399 !default;
 $--color-light: #f3f5fd !default;
 
-$--border-color-base: #c1c1c1 !default;
+$--border-color-base: #e6e6e6 !default;
+$--border-color-hover: $--color-primary;
 $--font-size-base: 16px !default;
 
 $--tooltip-fill: $--color-light;
@@ -95,11 +96,6 @@ $--form-item-margin-bottom: 10px;
 /*
 #JB-SPECIFIC-INPUT
 ------------------------------ */
-
-/*
-#BORDER
------------------------------- */
-$--border-color-hover: $--color-primary;
 
 /*
 #INPUT
