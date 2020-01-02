@@ -21,16 +21,6 @@
   .el-input__inner {
     cursor: pointer;
     padding-right: 35px;
-
-    &:focus {
-      border-color: $--select-input-focus-border-color;
-    }
-  }
-
-  &:hover {
-    .el-input__inner {
-      border-color: $--select-border-color-hover;
-    }
   }
 
   .el-input {
@@ -66,16 +56,19 @@
     &.is-disabled {
       .el-input__inner {
         cursor: not-allowed;
-
-        &:hover {
-          border-color: $--select-disabled-border;
-        }
       }
     }
   }
 
   > .el-input {
     display: block;
+  }
+
+  &.el-input:focus:not(.is-disabled),
+  &.el-input:hover:not(.is-disabled) {
+    .el-input__inner {
+      border-color: $--select-border-color-hover;
+    }
   }
 
   @include e(input) {
