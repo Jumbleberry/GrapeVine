@@ -37,6 +37,26 @@
   &.is-plain:active {
     background: $--color-light;
   }
+
+  @include m(small) {
+    height: 36px;
+  }
+
+  @include m(primary) {
+    &:hover {
+      background: $--jb-light-primary-color;
+      color: #fff;
+      border-color: $--jb-light-primary-color;
+    }
+
+    &:active,
+    &.active,
+    &:focus {
+      border-color: $--jb-dark-primary-color;
+      background: $--jb-dark-primary-color;
+      color: #fff;
+    }
+  }
 }
 
 //Next button
