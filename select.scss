@@ -54,8 +54,9 @@
     }
 
     &.is-disabled {
-      .el-input__inner {
-        cursor: not-allowed;
+      .el-input__inner,
+      .el-select__caret {
+        cursor: not-allowed !important;
       }
     }
   }
