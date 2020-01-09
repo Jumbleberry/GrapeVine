@@ -1,1 +1,8 @@
 @import "../theme-chalk/src/scrollbar.scss";
+
+@include b(scrollbar) {
+  > .el-scrollbar__bar {
+    /* fixes ios 13 issue: https://github.com/ElemeFE/element/issues/17794 */
+    opacity: 1;
+  }
+}
