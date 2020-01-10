@@ -173,6 +173,7 @@
     left: 0 !important;
     margin: 16px 0 (-$--select-dropdown-max-height - 16px) 0;
     height: $--select-dropdown-max-height;
+    z-index: 0 !important;
 
     .el-scrollbar {
       text-align: left;
