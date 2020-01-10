@@ -151,6 +151,14 @@
   }
 }
 
+.touch {
+  @include b(select) {
+    @include b(scrollbar__bar) {
+      display: none;
+    }
+  }
+}
+
 .mw-550 {
   max-width: 550px;
 
