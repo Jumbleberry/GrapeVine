@@ -3,6 +3,8 @@
 /* make scrollable and hide scrollbar */
 .touch {
   .el-tabs__nav {
+    transform: none !important;
+
     &-wrap {
       &.is-scrollable {
         padding: 0;
@@ -14,6 +16,7 @@
       overflow-y: scroll;
       margin-bottom: -25px;
       padding-bottom: 25px;
+      overscroll-behavior-x: none;
     }
 
     &-prev,
