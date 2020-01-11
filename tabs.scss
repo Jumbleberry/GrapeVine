@@ -1,1 +1,24 @@
 @import "../theme-chalk/src/tabs.scss";
+
+/* make scrollable and hide scrollbar */
+.touch {
+  .el-tabs__nav {
+    &-wrap {
+      &.is-scrollable {
+        padding: 0;
+      }
+    }
+
+    &-scroll {
+      overflow-x: auto;
+      overflow-y: scroll;
+      margin-bottom: -25px;
+      padding-bottom: 25px;
+    }
+
+    &-prev,
+    &-next {
+      display: none;
+    }
+  }
+}
