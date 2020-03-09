@@ -1,1 +1,22 @@
 @import "../theme-chalk/src/date-picker.scss";
+
+.el-date-editor {
+  width: 100% !important;
+
+  .el-range-separator {
+    width: 26px;
+    height: 35px;
+    color: black;
+  }
+
+  .el-range-input {
+    font-size: $--clb-font-size-xs;
+  }
+}
+
+@media (max-width: $--sm) {
+  .el-date-range-picker {
+    width: 254px;
+    overflow: hidden;
+  }
+}
