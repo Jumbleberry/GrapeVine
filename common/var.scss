@@ -52,11 +52,11 @@ $--jb-font-path: '~@/theme/jumbleberry/fonts' !default;
 /* ----------------------------
 #JB-COLORS
 ------------------------------ */
-$--jb-dark-primary-color: #5072ff;
-$--jb-light-primary-color: #4561ff;
-$--jb-black-primary-color: #162765;
-$--jb-bg-primary-color: #fff;
-$--jb-bg-accent-color: #f3f5fd;
+$--jb-dark-primary-color: #5072ff !default;
+$--jb-light-primary-color: #4561ff !default;
+$--jb-black-primary-color: #162765 !default;
+$--jb-bg-primary-color: #fff !default;
+$--jb-bg-accent-color: #f3f5fd !default;
 
 /*
 #JB-PLACEHOLDER-COLOR
