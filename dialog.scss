@@ -1,1 +1,22 @@
 @import "../theme-chalk/src/dialog.scss";
+
+@media (max-width: $--xs) {
+  @include b(dialog) {
+    @include e(header) {
+      padding: $--clb-layout-2 $--clb-mobile-padding 10px $--clb-mobile-padding;
+    }
+
+    @include e(headerbtn) {
+      right: $--clb-mobile-padding;
+      top: $--clb-layout-2 + 4px;
+    }
+
+    @include e(body) {
+      padding: ($--dialog-padding-primary + 10px) $--clb-mobile-padding;
+    }
+
+    @include e(footer) {
+      padding: 10px $--clb-mobile-padding $--dialog-padding-primary $--clb-mobile-padding;
+    }
+  }
+}

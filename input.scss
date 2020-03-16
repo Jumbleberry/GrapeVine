@@ -1,6 +1,27 @@
 @import "common/var";
 @import "../theme-chalk/src/input.scss";
 
+@include b(textarea) {
+  user-select: auto !important;
+
+  @include e(inner) {
+    transition: $--border-transition-base, $--color-transition-base;
+
+    &::placeholder {
+      color: $--color-text-jb-placeholder;
+    }
+
+    &:hover,
+    &:focus {
+      color: $--jb-dark-primary-color;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
 @include b(input) {
   user-select: auto !important;
 
@@ -36,6 +57,7 @@
   }
 
   @include m(prefix) {
+    .el-textarea__inner,
     .el-input__inner {
       letter-spacing: $--input-letter-spacing;
       padding: $--input-inner-jb-padding;
@@ -61,8 +83,9 @@
       min-height: 36px !important;
     }
 
+    .el-textarea__inner,
     .el-input__inner {
-      padding: 12px;
+      padding: 6px 12px;
       font-size: $--input-medium-font-size;
     }
 
