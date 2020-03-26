@@ -1,5 +1,14 @@
 @import "../theme-chalk/src/tabs.scss";
 
+@include b(tabs) {
+  @include e(item) {
+    &:focus.is-active.is-focus:not(:active) {
+      box-shadow: none;
+      border-radius: 0;
+    }
+  }
+}
+
 /* make scrollable and hide scrollbar */
 .touch {
   .el-tabs__nav {
