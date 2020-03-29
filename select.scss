@@ -65,8 +65,8 @@
     display: block;
   }
 
-  &.el-input:focus:not(.is-disabled),
-  &.el-input:hover:not(.is-disabled) {
+  &:hover .el-input:not(.is-disabled),
+  &:focus .el-input:not(.is-disabled) {
     .el-input__inner {
       border-color: $--select-border-color-hover;
     }
