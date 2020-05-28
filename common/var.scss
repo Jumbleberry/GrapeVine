@@ -194,8 +194,8 @@ $--jb-backlink-padding: 12px 12px !default;
 $--xs: 450px !default;
 $--breakpoints-spec: (
   'xs-and-up' : (min-width: $--xs),
-  'xs-only': "(min-width: #{$--xs}) and (max-width: #{$--xs - 1})",
-  'xs-and-down': (max-width: $--xs - 1),
+  'xs-only': "(min-width: #{$--xs}) and (max-width: #{$--sm - 1})",
+  'xs-and-down': (max-width: $--sm - 1),
   'sm-and-up' : (min-width: $--sm),
   'sm-only': "(min-width: #{$--sm}) and (max-width: #{$--md - 1})",
   'sm-and-down': (max-width: $--md - 1),
