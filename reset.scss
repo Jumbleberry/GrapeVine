@@ -4,9 +4,7 @@
 
 html {
   min-height: 100vh;
-  /* stylelint-disable */
   min-height: calc(100 * var(--vh, 1vh));
-  /* stylelint-enable */
   width: 100%;
   overflow: visible;
 }
@@ -18,9 +16,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background: $--jb-bg-primary-color;
   min-height: 100vh;
-  /* stylelint-disable */
   min-height: calc(100 * var(--vh, 1vh));
-  /* stylelint-enable */
   padding: 0;
   overflow: auto;
   margin: 0;

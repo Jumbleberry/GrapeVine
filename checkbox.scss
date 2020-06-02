@@ -7,9 +7,7 @@
     }
   }
 }
-/* stylelint-disable */
-  .el-checkbox.is-bordered +
-  .el-checkbox.is-bordered{
-    margin-left: 0 !important;
-  }
-/* stylelint-enable */
+
+.el-checkbox.is-bordered + .el-checkbox.is-bordered {
+  margin-left: 0 !important;
+}
