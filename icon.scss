@@ -1,1 +1,6 @@
 @import "../theme-chalk/src/icon.scss";
+
+[class^="el-icon-"],
+[class*=" el-icon-"] {
+  outline: transparent;
+}
