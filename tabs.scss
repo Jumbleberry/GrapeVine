@@ -7,6 +7,10 @@
       border-radius: 0;
     }
   }
+
+  @include e(new-tab) {
+    margin: 12px 10px 9px 10px;
+  }
 }
 
 /* make scrollable and hide scrollbar */
