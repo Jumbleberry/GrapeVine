@@ -1,1 +1,24 @@
 @import "../theme-chalk/src/input-number.scss";
+
+@include b(input-number) {
+  @include m(mini) {
+    line-height: 34px;
+  }
+
+  @include when(controls-right) {
+    @include e((increase, decrease)) {
+      line-height: 17px;
+
+      [class*="el-icon"] {
+        transform: scale(0.9);
+      }
+    }
+
+    &[class*="mini"] {
+      [class*="increase"],
+      [class*="decrease"] {
+        line-height: 17px;
+      }
+    }
+  }
+}
