@@ -59,6 +59,18 @@
   }
 }
 
+@include b(button-group) {
+  > .el-button {
+    &.is-disabled {
+      z-index: 0;
+    }
+
+    &:hover {
+      z-index: 2;
+    }
+  }
+}
+
 //Next button
 .next-button {
   background-color: $--jb-dark-primary-color;
