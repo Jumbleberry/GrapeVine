@@ -42,6 +42,10 @@
     height: 36px;
   }
 
+  @include m(mini) {
+    height: 32px;
+  }
+
   @include m(primary) {
     &:hover {
       background: $--jb-light-primary-color;
