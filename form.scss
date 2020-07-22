@@ -67,6 +67,10 @@
       color: $--color-success;
     }
   }
+
+  .el-input--mini + .el-form-item__error {
+    top: 40px !important;
+  }
 }
 
 @include b(form) {
