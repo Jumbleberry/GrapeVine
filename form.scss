@@ -71,6 +71,11 @@
   .el-input--mini + .el-form-item__error {
     top: 40px !important;
   }
+
+  .el-input--mini.el-textarea + .el-form-item__error {
+    top: unset !important;
+    bottom: -16px !important;
+  }
 }
 
 @include b(form) {
