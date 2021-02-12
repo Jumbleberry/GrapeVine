@@ -40,6 +40,15 @@
       .el-input__validateIcon {
         color: $--color-danger;
       }
+
+      .el-input--mini + .el-form-item__error {
+        top: 40px !important;
+      }
+
+      .el-input--mini.el-textarea + .el-form-item__error {
+        top: unset !important;
+        bottom: -16px !important;
+      }
     }
 
     @include when(success) {
@@ -61,15 +70,6 @@
       &.el-form-item__success {
         color: $--color-success;
       }
-    }
-
-    .el-input--mini + .el-form-item__error {
-      top: 40px !important;
-    }
-
-    .el-input--mini.el-textarea + .el-form-item__error {
-      top: unset !important;
-      bottom: -16px !important;
     }
   }
 }
