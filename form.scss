@@ -18,10 +18,6 @@
         }
       }
 
-      .el-form-item__content::after {
-        @apply tw-h-4;
-      }
-
       .el-input__inner,
       .el-textarea__inner {
         &,
