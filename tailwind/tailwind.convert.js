@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const TailwindConfig = require('./tailwind.config');
+const TailwindConfig = require('../../../../tailwind.config');
 const colors = TailwindConfig.theme.colors;
 const outPath = path.join(__dirname, 'theme-tailwind-variables.scss');
 
