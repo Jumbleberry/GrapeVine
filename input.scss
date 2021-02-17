@@ -11,14 +11,20 @@
       color: $--color-text-jb-placeholder;
     }
 
-    @apply tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink;
+    border-color: $--tw-jb-grey-100;
+    background-color: $--tw-white;
+    color: $--tw-jb-ink;
 
     &:hover:not(:focus) {
-      @apply tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
+      border-color: $--tw-jb-grey-100;
+      background-color: $--tw-grey-hover;
+      color: $--tw-jb-ink;
     }
 
     &:focus {
-      @apply tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink;
+      border-color: $--tw-jb-grey-100;
+      background-color: $--tw-white;
+      color: $--tw-jb-ink;
     }
   }
 }
@@ -33,7 +39,7 @@
     transition: $--border-transition-base, $--color-transition-base;
 
     &::placeholder {
-      @apply tw-text-jb-grey-400;
+      color: $--tw-jb-grey-400;
     }
 
     &::-webkit-outer-spin-button,
@@ -42,14 +48,20 @@
       margin: 0;
     }
 
-    @apply tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink;
+    border-color: $--tw-jb-grey-100;
+    background-color: $--tw-white;
+    color: $--tw-jb-ink;
 
     &:hover:not(:focus) {
-      @apply tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
+      border-color: $--tw-jb-grey-100;
+      background-color: $--tw-grey-hover;
+      color: $--tw-jb-ink;
     }
 
     &:focus {
-      @apply tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink;
+      border-color: $--tw-jb-grey-100;
+      background-color: $--tw-white;
+      color: $--tw-jb-ink;
     }
   }
 

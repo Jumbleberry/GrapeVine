@@ -9,7 +9,8 @@
   }
 
   @include b(form-item) {
-    @apply tw-relative tw-mb-3;
+    position: relative;
+    margin-bottom: 12px;
 
     @include when(error) {
       .el-form-item__label + .el-form-item__content {
@@ -22,7 +23,9 @@
       .el-textarea__inner {
         &,
         &:focus {
-          @apply tw-border-jb-red tw-bg-error-background tw-text-jb-ink;
+          border: 1px solid $--tw-jb-red;
+          background-color: $--tw-error-background;
+          color: $--tw-jb-ink;
         }
       }
 
@@ -61,7 +64,12 @@
     }
 
     @include e(error) {
-      @apply tw-text-jb-red-dark tw-text-sm tw-leading-none tw-pt-1 tw-absolute tw-top-full tw-left-0;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      color: $--tw-jb-red-dark;
+      line-height: 1;
+      font-size: 14px;
 
       &.el-form-item__success {
         color: $--color-success;
