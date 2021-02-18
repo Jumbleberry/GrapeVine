@@ -20,10 +20,9 @@ fs.unlink(outPath, err => {
         writeFile(`${newLineKey}: ${(myObject[key].toLowerCase())};\n`, key);
       }
       if (typeof (myObject[key]) === 'object') {
-        newLineKey += iterate(myObject[key], `${newLineKey}-${key}`);
+        iterate(myObject[key], `${newLineKey}-${key}`);
       }
     });
-    return lineKey;
   }
   function writeFile(line, key = '') {
     fs.appendFile(outPath, line, err => {
