@@ -2,6 +2,15 @@
 
 .el-date-editor {
   width: 100% !important;
+  @apply tw-cursor-pointer;
+
+  &.el-input__inner {
+    &:hover:not(:focus) {
+      @layer components {
+        @apply tw-bg-white;
+      }
+    }
+  }
 
   .el-range-separator {
     width: 26px;

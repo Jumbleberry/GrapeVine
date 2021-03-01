@@ -3,83 +3,74 @@
 
 @include b(form) {
   position: relative;
-}
 
-@include b(form-item) {
-  position: relative;
-  margin-bottom: $--form-item-margin-bottom;
-
-  @include when(error) {
-    .el-form-item__label + .el-form-item__content {
-      @include e(error) {
-        top: 100px;
-      }
-    }
-
-    .el-input__inner,
-    .el-textarea__inner {
-      &,
-      &:focus {
-        border-color: $--color-danger;
-      }
-    }
-
-    .el-input-group__append,
-    .el-input-group__prepend {
-      .el-input__inner {
-        border-color: transparent;
-      }
-    }
-
-    .el-input__validateIcon {
-      color: $--color-danger;
-    }
-  }
-
-  @include when(success) {
-    .el-input__inner,
-    .el-textarea__inner {
-      &,
-      &:focus {
-        border-color: $--color-success;
-        border-width: 1px;
-      }
-    }
-
-    .el-input-group__append,
-    .el-input-group__prepend {
-      .el-input__inner {
-        border-color: transparent;
-      }
-    }
-
-    .el-input__validateIcon {
-      color: $--color-success;
-    }
-  }
-
-  @include e(error) {
-    top: 60px;
-    left: 5px;
-    text-align: left;
-
-    &.el-form-item__success {
-      color: $--color-success;
-    }
-  }
-
-  .el-input--mini + .el-form-item__error {
-    top: 40px !important;
-  }
-
-  .el-input--mini.el-textarea + .el-form-item__error {
-    top: unset !important;
-    bottom: -16px !important;
-  }
-}
-
-@include b(form) {
   .el-button + .el-button {
     margin-left: 0;
+  }
+
+  @include b(form-item) {
+    position: relative;
+    margin-bottom: 12px;
+
+    @include when(error) {
+      .el-form-item__label + .el-form-item__content {
+        @include e(error) {
+          top: 100px;
+        }
+      }
+
+      .el-input__inner,
+      .el-textarea__inner {
+        @layer components {
+          @apply tw-border tw-border-jb-red tw-bg-error-background tw-text-jb-ink;
+        }
+      }
+
+      .el-input-group__append,
+      .el-input-group__prepend {
+        .el-input__inner {
+          border-color: transparent;
+        }
+      }
+
+      .el-input__validateIcon {
+        color: $--color-danger;
+      }
+
+      .el-input--mini + .el-form-item__error {
+        top: 40px !important;
+      }
+
+      .el-input--mini.el-textarea + .el-form-item__error {
+        top: unset !important;
+        bottom: -16px !important;
+      }
+    }
+
+    @include when(success) {
+      .el-input-group__append,
+      .el-input-group__prepend {
+        .el-input__inner {
+          border-color: transparent;
+        }
+      }
+
+      .el-input__validateIcon {
+        color: $--color-success;
+      }
+    }
+
+    @include e(error) {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      line-height: 1;
+      font-size: 14px;
+      @apply tw-text-jb-red-dark;
+
+      &.el-form-item__success {
+        color: $--color-success;
+      }
+    }
   }
 }
