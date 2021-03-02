@@ -21,6 +21,12 @@
   .el-input__inner {
     cursor: pointer;
     padding-right: 35px;
+
+    &:focus {
+      &::placeholder {
+        color: $--color-text-jb-placeholder;
+      }
+    }
   }
 
   .el-input {

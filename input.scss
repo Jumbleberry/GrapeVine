@@ -20,6 +20,10 @@
 
       &:focus {
         @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
+
+        &::placeholder {
+          @apply tw-text-transparent;
+        }
       }
     }
   }
@@ -53,6 +57,10 @@
 
       &:focus {
         @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
+
+        &::placeholder {
+          @apply tw-text-transparent;
+        }
       }
     }
   }
