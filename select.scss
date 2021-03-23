@@ -1,3 +1,4 @@
+
 @import "mixins/mixins";
 @import "mixins/utils";
 @import "common/var";
@@ -55,10 +56,6 @@
       }
     }
 
-    &.is-focus .el-input__inner {
-      border-color: $--select-input-focus-border-color;
-    }
-
     &.is-disabled {
       .el-input__inner,
       .el-select__caret {
@@ -74,7 +71,7 @@
   &:hover .el-input:not(.is-disabled),
   &:focus .el-input:not(.is-disabled) {
     .el-input__inner {
-      border-color: $--select-border-color-hover;
+      @apply tw-border-jb-indigo;
     }
   }
 
@@ -105,7 +102,7 @@
     font-size: $--select-input-font-size;
 
     &:hover {
-      color: $--select-close-hover-color;
+      @apply tw-bg-grey-hover;
     }
   }
 

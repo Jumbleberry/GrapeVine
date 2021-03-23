@@ -1,6 +1,22 @@
 @import "../theme-chalk/src/select-dropdown.scss";
 
 @include b(select-dropdown) {
+  @apply tw-border-jb-grey-100;
+
+  &.el-popper {
+    .popper__arrow {
+      @apply tw-hidden;
+    }
+  }
+
+  &.el-popper[x-placement^=bottom] {
+    @apply tw-mt-space-2px;
+  }
+
+  &.el-popper[x-placement^=top] {
+    @apply tw-mb-space-2px;
+  }
+
   @include when(multiple) {
     .el-select-dropdown__item {
       &.selected {
