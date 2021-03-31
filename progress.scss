@@ -5,11 +5,14 @@
 }
 
 @include b(progress) {
-  margin: 0 4px 16px 0;
-  width: 33.33%;
+  @include when(success) {
+    .el-progress-bar__inner {
+      background-color: #67c23a;
+    }
 
-  @include e(text) {
-    display: none;
+    .el-progress__text {
+      color: #67c23a;
+    }
   }
 }
 

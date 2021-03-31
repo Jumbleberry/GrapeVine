@@ -11,13 +11,20 @@
       color: $--color-text-jb-placeholder;
     }
 
-    &:hover,
-    &:focus {
-      color: $--jb-dark-primary-color;
-    }
+    @layer components {
+      @apply tw-border tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink tw-shadow-none;
 
-    &:focus {
-      box-shadow: none;
+      &:hover:not(:focus) {
+        @apply tw-border tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
+      }
+
+      &:focus {
+        @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
+
+        &::placeholder {
+          @apply tw-text-transparent;
+        }
+      }
     }
   }
 }
@@ -31,23 +38,30 @@
     font-size: 18px;
     transition: $--border-transition-base, $--color-transition-base;
 
-    &::placeholder {
-      color: $--color-text-jb-placeholder;
-    }
-
     &::-webkit-outer-spin-button,
     &::-webkit-inner-spin-button {
       -webkit-appearance: none;
       margin: 0;
     }
 
-    &:hover,
-    &:focus {
-      color: $--jb-dark-primary-color;
-    }
+    @layer components {
+      &::placeholder {
+        @apply tw-text-jb-grey-400;
+      }
 
-    &:focus {
-      box-shadow: none;
+      @apply tw-border tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink tw-shadow-none;
+
+      &:hover:not(:focus) {
+        @apply tw-border tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
+      }
+
+      &:focus {
+        @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
+
+        &::placeholder {
+          @apply tw-text-transparent;
+        }
+      }
     }
   }
 
@@ -91,6 +105,54 @@
 
     .el-input__icon {
       line-height: $--input-mini-height;
+    }
+  }
+}
+
+@include b(input-group) {
+  @include e((append, prepend)) {
+    border-color: transparent !important;
+    transition: none;
+
+    button.el-button,
+    div.el-select .el-input__inner {
+      transition: none;
+      border-color: transparent;
+      background-color: transparent;
+      color: inherit;
+      border: 1px solid $--border-color-base;
+    }
+
+    button.el-button:hover,
+    div.el-select:hover .el-input__inner {
+      border: 1px solid $--jb-dark-primary-color;
+      color: $--clb-color-primary;
+    }
+  }
+
+  @include e(append) {
+    button.el-button,
+    div.el-select .el-input__inner {
+      border-radius: 0 $--clb-border-radius $--clb-border-radius 0;
+      border-left-width: 0 !important;
+    }
+
+    button.el-button:hover,
+    div.el-select:hover .el-input__inner {
+      box-shadow: -1px 0 0 $--jb-dark-primary-color;
+    }
+  }
+
+  @include e(prepend) {
+    button.el-button,
+    div.el-select .el-input__inner {
+      border-radius: $--clb-border-radius 0 0 $--clb-border-radius;
+      border-right-width: 0 !important;
+    }
+
+    button.el-button:hover,
+    div.el-select:hover .el-input__inner {
+      box-shadow: 1px 0 0 $--jb-dark-primary-color;
     }
   }
 }

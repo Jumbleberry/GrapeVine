@@ -42,6 +42,10 @@
     height: 36px;
   }
 
+  @include m(mini) {
+    height: 32px;
+  }
+
   @include m(primary) {
     &:hover {
       background: $--jb-light-primary-color;
@@ -55,6 +59,18 @@
       border-color: $--jb-dark-primary-color;
       background: $--jb-dark-primary-color;
       color: #fff;
+    }
+  }
+}
+
+@include b(button-group) {
+  > .el-button {
+    &.is-disabled {
+      z-index: 0;
+    }
+
+    &:hover {
+      z-index: 2;
     }
   }
 }
