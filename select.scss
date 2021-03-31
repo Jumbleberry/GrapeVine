@@ -21,6 +21,12 @@
   .el-input__inner {
     cursor: pointer;
     padding-right: 35px;
+
+    &:focus {
+      &::placeholder {
+        @apply tw-text-jb-grey-400!;
+      }
+    }
   }
 
   .el-input {
@@ -39,18 +45,15 @@
         font-size: $--select-font-size;
         text-align: center;
         transform: rotateZ(180deg);
-        border-radius: $--border-radius-circle;
         color: $--select-input-color;
         transition: $--color-transition-base;
+
+        @apply tw-rounded;
 
         &:hover {
           color: $--select-close-hover-color;
         }
       }
-    }
-
-    &.is-focus .el-input__inner {
-      border-color: $--select-input-focus-border-color;
     }
 
     &.is-disabled {
@@ -68,7 +71,7 @@
   &:hover .el-input:not(.is-disabled),
   &:focus .el-input:not(.is-disabled) {
     .el-input__inner {
-      border-color: $--select-border-color-hover;
+      @apply tw-border-jb-indigo;
     }
   }
 
@@ -76,12 +79,13 @@
     border: none;
     outline: none;
     padding: 0;
-    margin-left: 15px;
-    color: $--select-multiple-input-color;
+    margin-left: 8px;
     font-size: $--select-font-size;
     appearance: none;
     height: 28px;
     background-color: transparent;
+
+    @apply tw-text-jb-grey-400!;
 
     @include when(mini) {
       height: 14px;
@@ -99,7 +103,7 @@
     font-size: $--select-input-font-size;
 
     &:hover {
-      color: $--select-close-hover-color;
+      @apply tw-bg-grey-hover;
     }
   }
 
@@ -122,25 +126,22 @@
   .el-tag,
   .el-tag.el-tag--info {
     box-sizing: border-box;
-    border-radius: 100px;
-    height: 40px;
-    line-height: 40px;
-    padding: 0 20px;
-    margin: 5px 0 5px 10px;
-    border-color: $--jb-dark-primary-color;
-    color: $--jb-dark-primary-color;
-    background: $--color-light !important;
-    font-size: 14px;
+    height: auto;
+    margin: 5px 0 5px 5px;
+    line-height: 25px;
+
+    @apply tw-rounded tw-bg-jb-grey-50! tw-text-sm tw-text-jb-ink! tw-px-2 tw-py-1 tw-border-none tw-flex tw-flex-row-reverse tw-font-medium;
 
     &__close.el-icon-close {
       right: -7px;
       top: 0;
       background: #fff;
-      color: $--jb-dark-primary-color;
+
+      @apply tw-text-jb-grey-400! tw-bg-transparent! tw--left-space-4px tw-text-h3 tw--top-space-1 tw-font-semi-bold;
 
       &:hover {
-        color: #fff;
-        background-color: $--jb-dark-primary-color;
+        background: none !important;
+        color: #262626 !important;
       }
 
       &::before {
