@@ -1,15 +1,14 @@
-@import "common/var";
 @import "../theme-chalk/src/option.scss";
 
-@include b(select-dropdown) {
-  @include e(item) {
-    color: $--jb-dark-primary-color;
+@layer components {
+  @include b(select-dropdown) {
+    @include e(item) {
+      @apply tw-text-jb-grey-700 tw-font-semibold tw-text-sm tw-px-space-2;
 
-    &.hover,
-    &:hover,
-    &.selected {
-      background: $--jb-hover-autocomplete;
-      color: $--color-white;
+      &.hover,
+      &:hover {
+        @apply tw-bg-grey-hover;
+      }
     }
   }
 }

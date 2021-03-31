@@ -1,5 +1,7 @@
 # Jumbleberry ElementUI Theme
 
+##### This depends on `TailwindCSS` being installed and built on the parent project.
+
 ## Usage
 #### Examples based on a Vue Cli 3 project
 Create a `theme` folder on the `src` folder of the project

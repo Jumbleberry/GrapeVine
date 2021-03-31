@@ -183,11 +183,13 @@
       height: $--pagination-button-height;
     }
 
+    /* stylelint-disable */
     .el-input__inner::-webkit-inner-spin-button,
     .el-input__inner::-webkit-outer-spin-button {
       -webkit-appearance: none;
       margin: 0;
     }
+    /* stylelint-enable */
   }
 
   @include when(background) {
@@ -225,6 +227,7 @@
       }
     }
 
+    /* stylelint-disable */
     &.el-pagination--small {
       .btn-prev,
       .btn-next,
@@ -233,6 +236,7 @@
         min-width: 22px;
       }
     }
+    /* stylelint-enable */
   }
 }
 
