@@ -34,7 +34,7 @@
 
   @include e(inner) {
     height: 60px;
-    min-height: 60px !important;
+    min-height: 60px;
     font-size: 18px;
     transition: $--border-transition-base, $--color-transition-base;
 
@@ -88,13 +88,13 @@
     font-size: $--input-medium-font-size;
 
     @include e(inner) {
-      min-height: 50px !important;
+      min-height: 50px;
     }
   }
 
   @include m(mini) {
     @include e(inner) {
-      min-height: 36px !important;
+      min-height: 36px;
     }
 
     .el-textarea__inner,
