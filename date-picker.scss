@@ -7,9 +7,7 @@
 
   &.el-input__inner {
     &:hover:not(:focus) {
-      @layer components {
-        @apply tw-bg-white;
-      }
+      @apply tw-bg-white;
     }
   }
 

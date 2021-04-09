@@ -21,9 +21,7 @@
 
       .el-input__inner,
       .el-textarea__inner {
-        @layer components {
-          @apply tw-border tw-border-jb-red tw-bg-error-background tw-text-jb-ink;
-        }
+        @apply tw-border tw-border-jb-red tw-bg-error-background tw-text-jb-ink;
       }
 
       .el-input-group__append,

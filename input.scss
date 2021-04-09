@@ -11,19 +11,17 @@
       color: $--color-text-jb-placeholder;
     }
 
-    @layer components {
-      @apply tw-border tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink tw-shadow-none;
+    @apply tw-border tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink tw-shadow-none;
 
-      &:hover:not(:focus) {
-        @apply tw-border tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
-      }
+    &:hover:not(:focus) {
+      @apply tw-border tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
+    }
 
-      &:focus {
-        @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
+    &:focus {
+      @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
 
-        &::placeholder {
-          @apply tw-text-transparent;
-        }
+      &::placeholder {
+        @apply tw-text-transparent;
       }
     }
   }
@@ -44,23 +42,21 @@
       margin: 0;
     }
 
-    @layer components {
+    &::placeholder {
+      @apply tw-text-jb-grey-400;
+    }
+
+    @apply tw-border tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink tw-shadow-none;
+
+    &:hover:not(:focus) {
+      @apply tw-border tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
+    }
+
+    &:focus {
+      @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
+
       &::placeholder {
-        @apply tw-text-jb-grey-400;
-      }
-
-      @apply tw-border tw-border-jb-grey-100 tw-bg-white tw-text-jb-ink tw-shadow-none;
-
-      &:hover:not(:focus) {
-        @apply tw-border tw-border-jb-grey-100 tw-bg-grey-hover tw-text-jb-ink;
-      }
-
-      &:focus {
-        @apply tw-border tw-border-jb-indigo tw-bg-white tw-text-jb-ink;
-
-        &::placeholder {
-          @apply tw-text-transparent;
-        }
+        @apply tw-text-transparent;
       }
     }
   }
