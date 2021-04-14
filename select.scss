@@ -25,7 +25,7 @@
 
     &:focus {
       &::placeholder {
-        @apply tw-text-jb-grey-400!;
+        @apply tw-text-jb-grey-400;
       }
     }
   }
@@ -86,7 +86,7 @@
     height: 28px;
     background-color: transparent;
 
-    @apply tw-text-jb-grey-400!;
+    @apply tw-text-jb-grey-400;
 
     @include when(mini) {
       height: 14px;
@@ -131,14 +131,14 @@
     margin: 5px 0 5px 5px;
     line-height: 25px;
 
-    @apply tw-rounded tw-bg-jb-grey-50! tw-text-sm tw-text-jb-ink! tw-px-2 tw-py-1 tw-border-none tw-flex tw-flex-row-reverse tw-font-medium;
+    @apply tw-rounded tw-bg-jb-grey-50 tw-text-sm tw-text-jb-ink tw-px-2 tw-py-1 tw-border-none tw-flex tw-flex-row-reverse tw-font-medium;
 
     &__close.el-icon-close {
       right: -7px;
       top: 0;
       background: #fff;
 
-      @apply tw-text-jb-grey-400! tw-bg-transparent! tw--left-space-4px tw-text-h3 tw--top-space-1 tw-font-semi-bold;
+      @apply tw-text-jb-grey-400 tw-bg-transparent tw--left-space-4px tw-text-h3 tw--top-space-1 tw-font-semi-bold;
 
       &:hover {
         background: none !important;

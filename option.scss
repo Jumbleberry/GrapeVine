@@ -1,14 +1,12 @@
 @import "../theme-chalk/src/option.scss";
 
-@layer components {
-  @include b(select-dropdown) {
-    @include e(item) {
-      @apply tw-text-jb-grey-700 tw-font-semibold tw-text-sm tw-px-space-2;
+@include b(select-dropdown) {
+  @include e(item) {
+    @apply tw-text-jb-grey-700 tw-font-semibold tw-text-sm tw-px-space-2;
 
-      &.hover,
-      &:hover {
-        @apply tw-bg-grey-hover;
-      }
+    &.hover,
+    &:hover {
+      @apply tw-bg-grey-hover;
     }
   }
 }
