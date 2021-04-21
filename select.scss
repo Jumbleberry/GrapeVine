@@ -69,10 +69,17 @@
     display: block;
   }
 
-  &:hover .el-input:not(.is-disabled),
-  &:focus .el-input:not(.is-disabled) {
+  &:hover,
+  &:focus {
     .el-input__inner {
-      @apply tw-border-jb-indigo;
+      @apply tw-bg-hover-background;
+    }
+  }
+
+  &:hover .el-input.is-disabled,
+  &:focus .el-input.is-disabled {
+    .el-input__inner {
+      background-color: $--background-color-base;
     }
   }
 
@@ -127,11 +134,8 @@
   .el-tag,
   .el-tag.el-tag--info {
     box-sizing: border-box;
-    height: auto;
-    margin: 5px 0 5px 5px;
-    line-height: 25px;
 
-    @apply tw-rounded tw-bg-jb-grey-50 tw-text-sm tw-text-jb-ink tw-px-2 tw-py-1 tw-border-none tw-flex tw-flex-row-reverse tw-font-medium;
+    @apply tw-rounded tw-bg-jb-grey-50 tw-ml-space-1 tw-h-auto tw-text-sm tw-text-jb-ink tw-px-2 tw-py-1 tw-border-none tw-flex tw-flex-row-reverse tw-font-medium;
 
     &__close.el-icon-close {
       right: -7px;
