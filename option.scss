@@ -2,7 +2,7 @@
 
 @include b(select-dropdown) {
   @include e(item) {
-    @apply tw-text-jb-grey-700 tw-font-semibold tw-text-sm tw-px-space-2;
+    @apply tw-text-jb-grey-700 tw-font-semibold tw-text-sm tw-px-2;
 
     &.hover,
     &:hover {
