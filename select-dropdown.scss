@@ -10,11 +10,11 @@
   }
 
   &.el-popper[x-placement^=bottom] {
-    @apply tw-mt-space-2px;
+    @apply tw-mt-[2px];
   }
 
   &.el-popper[x-placement^=top] {
-    @apply tw-mb-space-2px;
+    @apply tw-mb-[2px];
   }
 
   @include when(multiple) {
