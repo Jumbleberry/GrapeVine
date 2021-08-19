@@ -1,5 +1,9 @@
 @import "../theme-chalk/src/dialog.scss";
 
+@include b(dialog) {
+  border-radius: $--border-radius-base;
+}
+
 @media (max-width: $--xs) {
   @include b(dialog) {
     @include e(header) {
