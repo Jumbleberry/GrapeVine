@@ -24,11 +24,11 @@
   }
 
   &.el-range-editor--mini.el-input__inner {
-    @apply tw-h-9 tw-z-10 tw-text-sm hover:tw-border-jb-grey-100 hover:tw-bg-grey-hover;
+    @apply tw-h-9 tw-z-10 tw-text-sm hover:tw-border-jb-grey-100 hover:tw-bg-jb-grey-hover;
 
     &:hover {
       >.el-range-input {
-        @apply tw-border-jb-grey-100 tw-bg-grey-hover;
+        @apply tw-border-jb-grey-100 tw-bg-jb-grey-hover;
       }
     }
 
