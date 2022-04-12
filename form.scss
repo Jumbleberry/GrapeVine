@@ -21,7 +21,7 @@
 
       .el-input__inner,
       .el-textarea__inner {
-        @apply tw-border tw-border-jb-red tw-bg-error-background tw-text-jb-ink hover:tw-bg-[#F4E9E6];
+        @apply tw-border tw-border-jb-red tw-bg-jb-error-background tw-text-jb-ink hover:tw-bg-[#F4E9E6];
       }
 
       .el-input-group__append,
