@@ -3,6 +3,10 @@
 .el-date-editor {
   width: 100% !important;
 
+  .el-input {
+    @include el-input;
+  }
+
   @apply tw-cursor-pointer;
 
   &.el-input__inner {
@@ -13,12 +17,24 @@
 
   .el-range-separator {
     width: 26px;
-    height: 35px;
+
+    @apply tw-h-auto tw-align-middle;
+
     color: black;
   }
 
-  .el-range-input {
-    font-size: $--clb-font-size-xs;
+  &.el-range-editor--mini.el-input__inner {
+    @apply tw-h-9 tw-z-10 tw-text-sm hover:tw-border-jb-grey-100 hover:tw-bg-grey-hover;
+
+    &:hover {
+      >.el-range-input {
+        @apply tw-border-jb-grey-100 tw-bg-grey-hover;
+      }
+    }
+
+    .el-range-input {
+      @apply tw-text-sm;
+    }
   }
 }
 
