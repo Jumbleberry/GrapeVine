@@ -140,7 +140,7 @@ $directions: rtl, ltr, ttb, btt;
     color: rgb(114, 118, 123);
     display: flex;
     margin-bottom: 32px;
-    min-height: $--clb-app-header-height;
+    min-height: theme('spacing.app-header-height');
     padding: $--clb-layout-2 $--clb-mobile-padding;
     padding-bottom: 0;
 
