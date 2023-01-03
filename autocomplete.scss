@@ -1,4 +1,4 @@
-@import "common/var";
+@import "./common/var";
 @import "../theme-chalk/src/autocomplete.scss";
 
 @include b(autocomplete) {
