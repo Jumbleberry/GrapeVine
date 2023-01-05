@@ -1,4 +1,4 @@
-@import "common/var";
+@import "./common/var";
 @import "../theme-chalk/src/card.scss";
 
 @include b(card) {
