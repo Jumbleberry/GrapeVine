@@ -24,7 +24,7 @@
   }
 
   &.el-range-editor--mini.el-input__inner {
-    @apply tw-h-9 tw-z-10 tw-text-sm hover:tw-border-jb-grey-100 hover:tw-bg-jb-grey-hover;
+    @apply tw-h-9 tw-z-[1] tw-text-sm hover:tw-border-jb-grey-100 hover:tw-bg-jb-grey-hover;
 
     &:hover {
       >.el-range-input {
