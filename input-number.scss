@@ -7,17 +7,28 @@
 
   @include when(controls-right) {
     @include e((increase, decrease)) {
-      line-height: 19px;
+      line-height: 18px;
+      right: 1.5px;
 
       [class*="el-icon"] {
         transform: scale(0.9);
       }
     }
 
-    &[class*="small"] {
+    @include e(increase) {
+      top: 1.5px;
+      border-radius: 0 calc($--border-radius-base * 2) 0 0;
+    }
+
+    @include e(decrease) {
+      bottom: 1.5px;
+      border-radius: 0 0 calc($--border-radius-base * 2) 0;
+    }
+
+    &[class*="mini"] {
       [class*="increase"],
       [class*="decrease"] {
-        line-height: 19px;
+        line-height: 17px;
       }
     }
   }
