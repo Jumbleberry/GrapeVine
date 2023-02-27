@@ -3,10 +3,6 @@
 .el-date-editor {
   width: 100% !important;
 
-  .el-input {
-    @include el-input;
-  }
-
   @apply tw-cursor-pointer;
 
   &.el-input__inner {

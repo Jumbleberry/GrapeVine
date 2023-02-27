@@ -21,7 +21,8 @@
 
       .el-input__inner,
       .el-textarea__inner {
-        @apply tw-border tw-border-jb-red tw-bg-jb-error-background tw-text-jb-ink hover:tw-bg-[#F4E9E6];
+        @apply tw-border-[1.5px] tw-border-status-error tw-bg-status-error-light;
+        @apply brand-jb:tw-border-[1px];
       }
 
       .el-input-group__append,
@@ -65,7 +66,7 @@
       line-height: 1;
       font-size: 14px;
 
-      @apply tw-text-jb-red-dark;
+      @apply tw-text-status-error;
 
       &.el-form-item__success {
         color: $--color-success;

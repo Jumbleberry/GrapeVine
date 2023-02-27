@@ -1,7 +1,7 @@
-$--color-primary: #5072ff !default;
-$--color-success: #5072ff !default;
-$--color-warning: #f4d578 !default;
-$--color-danger: #f56c6c !default;
+$--color-primary: #5c15f1 !default;
+$--color-success: #5c15f1 !default;
+$--color-warning: #f17f15 !default;
+$--color-danger: #f1154a !default;
 $--color-info: #909399 !default;
 $--color-light: #f3f5fd !default;
 
@@ -15,7 +15,7 @@ $--disabled-color-base: #a1a1a1;
 /* Border
 -------------------------- */
 $--border-color-base: #e6e6e6 !default;
-$--border-color-hover: $--color-primary;
+$--border-color-hover: #c3c9cf;
 $--font-size-base: 16px !default;
 
 /* Tooltip
@@ -56,9 +56,9 @@ $--jb-font-path: '@/theme/jumbleberry/fonts' !default;
 /* ----------------------------
 #JB-COLORS
 ------------------------------ */
-$--jb-dark-primary-color: #5072ff !default;
-$--jb-light-primary-color: #4561ff !default;
-$--jb-black-primary-color: #162765 !default;
+$--jb-dark-primary-color: #4704d6 !default;
+$--jb-light-primary-color: #5c15f1 !default;
+$--jb-black-primary-color: #3600a6 !default;
 $--jb-bg-primary-color: #fff !default;
 $--jb-bg-accent-color: #f3f5fd !default;
 
